@@ -1,4 +1,4 @@
-baseURL: "https://carmelolg.github.io/chords"
+baseURL: "https://org-carmelolg-private-labs.github.io/chords"
 languageCode: it-IT
 title: Melo Chords
 theme: ["hugo-PaperMod"]
