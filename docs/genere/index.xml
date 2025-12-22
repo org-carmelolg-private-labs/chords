@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Genere on Melo Chords</title>
-    <link>https://carmelolg.github.io/chords/genere/</link>
+    <link>https://org-carmelolg-private-labs.github.io/chords/genere/</link>
     <description>Recent content in Genere on Melo Chords</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>it</language>
+    <generator>Hugo -- 0.153.1</generator>
+    <language>it-IT</language>
     <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://carmelolg.github.io/chords/genere/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://org-carmelolg-private-labs.github.io/chords/genere/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cantautorato</title>
-      <link>https://carmelolg.github.io/chords/genere/cantautorato/</link>
+      <link>https://org-carmelolg-private-labs.github.io/chords/genere/cantautorato/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://carmelolg.github.io/chords/genere/cantautorato/</guid>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/genere/cantautorato/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Autori on Melo Chords</title>
-    <link>https://carmelolg.github.io/chords/autori/</link>
+    <link>https://org-carmelolg-private-labs.github.io/chords/autori/</link>
     <description>Recent content in Autori on Melo Chords</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>it</language>
+    <generator>Hugo -- 0.153.1</generator>
+    <language>it-IT</language>
     <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://carmelolg.github.io/chords/autori/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://org-carmelolg-private-labs.github.io/chords/autori/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bianco</title>
-      <link>https://carmelolg.github.io/chords/autori/bianco/</link>
+      <link>https://org-carmelolg-private-labs.github.io/chords/autori/bianco/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://carmelolg.github.io/chords/autori/bianco/</guid>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/bianco/</guid>
       <description></description>
     </item>
     <item>
       <title>Colapesce</title>
-      <link>https://carmelolg.github.io/chords/autori/colapesce/</link>
+      <link>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://carmelolg.github.io/chords/autori/colapesce/</guid>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce/</guid>
       <description></description>
     </item>
     <item>
       <title>Brunori Sas</title>
-      <link>https://carmelolg.github.io/chords/autori/brunori-sas/</link>
+      <link>https://org-carmelolg-private-labs.github.io/chords/autori/brunori-sas/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://carmelolg.github.io/chords/autori/brunori-sas/</guid>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/brunori-sas/</guid>
       <description></description>
     </item>
   </channel>
