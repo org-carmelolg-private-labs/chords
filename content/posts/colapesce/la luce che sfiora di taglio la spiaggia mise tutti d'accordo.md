@@ -1,7 +1,7 @@
 ---
 author: ["carmelolg"]
 title: "Colapesce Dimartino - La luce che sfiora di taglio la spiaggia mise tutti d'accordo"
-date: "2025-10-20"
+date: "2026-04-08"
 description: ""
 livello: Basso
 autori: ["Colapesce", "Dimartino"]
