@@ -10,81 +10,100 @@ ShowToc: false
 ---
 
 ```text
-DO      RE      MI-     LA-
+[Intro]
+SOL MI- LA
+SOL MI- LA
 
-DO                    RE
-La luce che sfiora di taglio la spiaggia
-MI-                         LA-
-mise tutti d'accordo, mise tutti d'accordo
+[Verse]
+SOL                           MI-
+Arrivarono il silenzio e i cambiamenti
+LA
+Come dei lampi, graffiano il buio
+SOL                       MI-
+Io volevo fare solo il musicista
+LA
+Lei ci credeva, mentre studiava.
 
-DO                         RE
-E finalmente parlavi di qualcosa
-MI-                  LA-
-che non fosse il lavoro
+SOL            MI-
+Per andare via
+LA
+Servono gli euro e un filo di rabbia
+SOL            MI-  LA
+Per andare via, lontano.
 
-FA                    DO
-E il mare era ancora largo
-SOL               LA-
-e il sole era ancora caldo
+[Chorus]
+Fa#m
+Il capomastro appeso ad un traliccio grida
+                      MI-
+"il cielo non esiste" e pure la luna è una messa in scena
+Fa#m                                              MI-
+Ma la luce che sfiora di taglio la spiaggia mise tutti d'accordo
+        RE           MI-
+pure i pesci che li vedi brillare
+        Fa#m
+e d'argento il mare
+       MI-                   RE
+non si vede la fine, menomale
 
-FA                    DO
-E il vento era ancora largo
-SOL               MI-
-e il cielo era ancora caldo
+[Bridge]
+LA SI- SOL
+LA SI- SOL
+LA SI- SOL
+LA SI- SOL
 
+Fa#m MI-
 
-DO      RE      MI-     LA-
+LA SI- SOL
+LA SI- SOL
+LA SI- SOL
+LA SI- SOL
 
+[Chorus]
+Fa#m
+La star del porno china sul suo letto grida
+                           MI-
+il cielo non esiste e pure l'amore è una messa in scena
+Fa#m                                           MI-
+ma la luce che sfiora di taglio i tuoi occhi mette tutti d'accordo
+        RE           MI-
+pure i pesci che li vedi brillare
+Fa#m
+e d'argento il mare
+MI-                     SOL
+non si vede la fine, menomale
 
-DO                    RE
-La musica che veniva dal bar
-MI-                         LA-
-mise tutti d'accordo, mise tutti d'accordo
+[Interlude]
+SOL MI- LA
+SOL MI- LA
 
-DO                         RE
-E finalmente ridevi di qualcosa
-MI-                  LA-
-che non fosse un errore
+SOL          MI-   LA
+Per andare via, davvero
+SOL          MI-   LA
+Per andare via, lontano
 
-FA                    DO
-E il mare era ancora largo
-SOL               LA-
-e il sole era ancora caldo
+[Bridge]
+LA SI- SOL
+LA SI- SOL
 
-FA                    DO
-E il vento era ancora largo
-SOL               MI-
-e il cielo era ancora caldo
-
-
-FA             DO
-Eravamo in pochi, eravamo i pochi
-SOL                        LA-
-che sapevano stare al mondo
-
-FA             DO
-Eravamo in pochi, eravamo i pochi
-SOL                        MI-
-che sapevano stare al mondo
-
-FA             DO
-Eravamo in pochi, eravamo i pochi
-SOL                        LA-
-che sapevano stare al mondo
-
-FA             DO
-Eravamo in pochi, eravamo i pochi
-SOL                        MI-
-che sapevano stare al mondo
-
-
-DO      RE      MI-     LA-
-
-
-DO                    RE
-La luce che sfiora di taglio la spiaggia
-MI-                         LA-
-mise tutti d'accordo, mise tutti d'accordo
+[Chorus]
+Fa#m                                            MI-                               LA SI-
+L'anestesista dice che il dolore non esiste e pure la morte è una messa in scena
+  SOL                                        LA SI-
+ma la luce che sfiora di taglio i tuoi occhi
+SOL                   LA SI-
+mette tutti d'accordo
+SOL           LA SI-
+pure i pesci
+SOL                    LA SI-
+mette tutti d'accordo
+SOL           LA SI-
+pure i pesci
+SOL
+Fa#m
+che li vedi brillare
+MI-
+e d'argento il mare
+RE
 ```
 
 ### Ascolta l'originale su YouTube
