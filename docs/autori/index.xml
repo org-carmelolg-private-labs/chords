@@ -9,17 +9,10 @@
     <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://org-carmelolg-private-labs.github.io/chords/autori/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Colapesce</title>
-      <link>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce/</link>
+      <title>Colapesce &amp; Dimartino</title>
+      <link>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce--dimartino/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dimartino</title>
-      <link>https://org-carmelolg-private-labs.github.io/chords/autori/dimartino/</link>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/dimartino/</guid>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce--dimartino/</guid>
       <description></description>
     </item>
     <item>
@@ -34,6 +27,13 @@
       <link>https://org-carmelolg-private-labs.github.io/chords/autori/bianco/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://org-carmelolg-private-labs.github.io/chords/autori/bianco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Colapesce</title>
+      <link>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/autori/colapesce/</guid>
       <description></description>
     </item>
     <item>
