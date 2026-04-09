@@ -22,11 +22,12 @@ chords/
 ├── assets/              # CSS/JS assets
 ├── content/
 │   ├── posts/           # Song chord sheets, organised by artist
-│   │   ├── bianco/      # Songs by Bianco
-│   │   ├── brunorisas/  # Songs by BrunoriSas
-│   │   ├── colapesce/   # Songs by Colapesce
-│   │   ├── dalla/       # Songs by Lucio Dalla
-│   │   └── .../         # Songs by other artists
+│   │   ├── bianco/              # Songs by Bianco
+│   │   ├── brunorisas/          # Songs by BrunoriSas
+│   │   ├── colapesce/           # Songs by Colapesce
+│   │   ├── colapesce-dimartino/ # Songs by Colapesce & Dimartino
+│   │   ├── dalla/               # Songs by Lucio Dalla
+│   │   └── .../                 # Songs by other artists
 │   ├── archives.md      # Archive page
 │   └── search.md        # Search page
 ├── static/              # Static files (images, favicon, …)
@@ -39,7 +40,7 @@ chords/
 
 ## How Songs and Artists Are Organised
 
-Each artist has its own sub-directory under `content/posts/`. Inside that directory every song is a single Markdown file with Hugo front matter.
+Each artist has its own sub-directory under `content/posts/`. Inside that directory every song is a single Markdown file with Hugo front matter. When a song is shared by two artists, a combined directory is used (e.g. `colapesce-dimartino/`) and the `autori` field is set to `"Artist A & Artist B"`.
 
 **Example front matter:**
 
@@ -54,6 +55,12 @@ autori: Lucio Dalla   # artist name (used as a taxonomy tag)
 genere: Cantautorato  # music genre (used as a taxonomy tag)
 ShowToc: false
 ---
+```
+
+For songs by multiple artists, use `&` to join the names:
+
+```yaml
+autori: "Colapesce & Dimartino"
 ```
 
 The site exposes three custom taxonomies that allow filtering by:
