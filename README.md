@@ -22,10 +22,11 @@ chords/
 ├── assets/              # CSS/JS assets
 ├── content/
 │   ├── posts/           # Song chord sheets, organised by artist
-│   │   ├── bianco/      # Songs by Marco Bianconero
-│   │   ├── brunorisas/  # Songs by Bruno Risa
+│   │   ├── bianco/      # Songs by Bianco
+│   │   ├── brunorisas/  # Songs by BrunoriSas
 │   │   ├── colapesce/   # Songs by Colapesce
-│   │   └── dalla/       # Songs by Lucio Dalla
+│   │   ├── dalla/       # Songs by Lucio Dalla
+│   │   └── .../         # Songs by other artists
 │   ├── archives.md      # Archive page
 │   └── search.md        # Search page
 ├── static/              # Static files (images, favicon, …)
@@ -129,7 +130,7 @@ The output is generated in the `public/` directory.
 
 Contributions are welcome! Please follow these steps:
 
-1. **Fork** the repository and create a feature branch from `main`.
+1. **Fork** the repository and create a feature branch from `master`.
 2. Add or update chord sheets following the structure described above.
 3. Make sure the site builds locally without errors (`hugo server -D`).
 4. Open a **Pull Request** with a clear description of what you added or changed.
