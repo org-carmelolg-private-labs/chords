@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Colapesce - Sottotitoli"
 date: "2025-10-19"
 description: ""
-livello: Basso
+livello: Medio-Basso
 autori: Colapesce
 genere: Cantautorato
 ShowToc: false

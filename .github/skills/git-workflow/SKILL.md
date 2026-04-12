@@ -28,7 +28,7 @@ Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
 | `feat` | New song or new feature |
 | `fix` | Correcting chords, fixing a bug |
 | `refactor` | Restructuring content/code without changing behaviour |
-| `docs` | README, copilot-instructions, or other documentation only |
+| `docs` | README, repo skills, or other documentation only |
 | `chore` | Config, CI, or housekeeping changes |
 
 ### Summary rules
@@ -58,7 +58,7 @@ fix: merge duplicate Colapesce & Dimartino song into a single entry
 - Remove duplicate from content/posts/colapesce/
 - Remove duplicate from content/posts/dimartino/ (now empty, dir deleted)
 - Add unified post under content/posts/colapesce-dimartino/
-- Update README.md and copilot-instructions.md
+- Update README.md and `.github/skills/melo-chords/SKILL.md`
 
 Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
 ```

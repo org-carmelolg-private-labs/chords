@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Colapesce & Dimartino - La luce che sfiora di taglio la spiaggia mise tutti d'accordo"
 date: "2026-04-08"
 description: ""
-livello: Basso
+livello: Medio-Basso
 autori: "Colapesce & Dimartino"
 genere: Cantautorato
 ShowToc: false

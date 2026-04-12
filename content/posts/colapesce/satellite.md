@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Colapesce - Satellite"
 date: "2025-10-20"
 description: ""
-livello: Basso
+livello: Medio
 autori: Colapesce
 genere: Cantautorato
 ShowToc: false

@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Bianco - Filo d'erba"
 date: "2025-10-20"
 description: ""
-livello: Basso
+livello: Medio-Basso
 autori: Bianco
 genere: Cantautorato
 ShowToc: false

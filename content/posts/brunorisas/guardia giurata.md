@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Brunori Sas - Guardia Giurata"
 date: "2025-10-19"
 description: ""
-livello: Basso
+livello: Medio
 autori: Brunori Sas
 genere: Cantautorato
 ShowToc: false

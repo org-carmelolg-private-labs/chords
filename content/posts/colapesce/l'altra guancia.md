@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Colapesce - L'altra guancia"
 date: "2025-10-20"
 description: ""
-livello: Basso
+livello: Medio-Basso
 autori: Colapesce
 genere: Cantautorato
 ShowToc: false

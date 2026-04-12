@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Brunori Sas - Brucaliffo"
 date: "2025-10-19"
 description: ""
-livello: Medio-Basso
+livello: Alto
 autori: Brunori Sas
 genere: Cantautorato
 ShowToc: false

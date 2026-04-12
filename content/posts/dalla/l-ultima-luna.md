@@ -3,7 +3,7 @@ author: ["carmelolg"]
 title: "Lucio Dalla - L'ultima luna"
 date: "2026-04-08"
 description: ""
-livello: Basso
+livello: Medio-Basso
 autori: Lucio Dalla
 genere: Cantautorato
 ShowToc: false
