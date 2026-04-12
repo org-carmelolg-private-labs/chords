@@ -10,7 +10,7 @@
 <meta name="description" content="Chords by Melo">
 <meta name="author" content="carmelolg">
 <link rel="canonical" href="https://org-carmelolg-private-labs.github.io/chords/autori/lucio-dalla/">
-<link crossorigin="anonymous" href="/chords/assets/css/stylesheet.b94b35ff8f32a227789cdf6db09194337ca10eaaead5e2910165f364265b45c5.css" integrity="sha256-uUs1/48yoid4nN9tsJGUM3yhDqrq1eKRAWXzZCZbRcU=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/chords/assets/css/stylesheet.7b529a0172c5cc4399d7098077d8dda72d6eb41fe5341c61b43ea703fe9f79f3.css" integrity="sha256-e1KaAXLFzEOZ1wmAd9jdpy1utB/lNBxhtD6nA/6fefM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://org-carmelolg-private-labs.github.io/chords/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://org-carmelolg-private-labs.github.io/chords/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://org-carmelolg-private-labs.github.io/chords/favicon-32x32.png">
@@ -108,6 +108,28 @@
             </div>
         </div>
         <ul id="menu">
+            <li class="menu-dropdown-item">
+                <details class="menu-dropdown">
+                    <summary class="menu-dropdown-summary" aria-label="Apri il menu Guide">
+                        <span class="menu-dropdown-label">Guide</span>
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                    </summary>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="https://org-carmelolg-private-labs.github.io/chords/tips/" title="Guide">
+                                <span>Tutte le guide</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://org-carmelolg-private-labs.github.io/chords/tips/pentatonica-mi-minore/" title="Pentatonica minore di Mi">
+                                <span>Pentatonica minore di Mi</span>
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
             <li>
                 <a href="https://org-carmelolg-private-labs.github.io/chords/search/" title="Ricerca">
                     <span>Ricerca</span>
@@ -181,14 +203,6 @@
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();

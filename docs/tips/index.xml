@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Guide on Melo Chords</title>
+    <link>https://org-carmelolg-private-labs.github.io/chords/tips/</link>
+    <description>Recent content in Guide on Melo Chords</description>
+    <generator>Hugo -- 0.160.1</generator>
+    <language>it-IT</language>
+    <atom:link href="https://org-carmelolg-private-labs.github.io/chords/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pentatonica minore di Mi</title>
+      <link>https://org-carmelolg-private-labs.github.io/chords/tips/pentatonica-mi-minore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/tips/pentatonica-mi-minore/</guid>
+      <description>Guida per chi vuole iniziare a usare la pentatonica minore di Mi con esercizi, box e consigli pratici.</description>
+    </item>
+  </channel>
+</rss>
