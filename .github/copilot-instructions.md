@@ -1,95 +1,89 @@
 # Copilot instructions for Melo Chords
 
-## Start with the project skills
+## Build commands
 
-This repository defines three custom skills under `.github/skills/`:
-
-1. **`melo-chords`**: use for general repository context, Hugo workflow, site structure, song-post conventions, taxonomy rules, and difficulty assignment.
-2. **`correct-chord-sheet`**: use when fixing an existing song in `content/posts/`. Verify lyrics and chords against reliable sources before editing, preserve front matter unless the metadata itself is wrong, and keep section labels and formatting consistent with the repository style.
-3. **`git-workflow`**: use whenever committing or pushing. Follow Conventional Commits, stage with `git add -A`, include the required `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>` trailer, push to `master`, and never force-push.
-
-When a task matches one of these skills, prefer using it instead of re-deriving the workflow from scratch.
-
-## Repository purpose
-
-Melo Chords is a Hugo static site that archives guitar chord sheets for Italian songs. The site language is Italian and user-facing strings, labels, taxonomy names, and prose should stay in Italian.
-
-## Core architecture
-
-- Hugo site configured in `hugo.yaml`
-- Theme: `hugo-PaperMod`
-- Homepage uses PaperMod Profile Mode
-- Theme files live in `themes/` and are managed as git submodules
-- `layouts/` is intentionally empty; prefer theme configuration over custom layouts unless a task clearly requires otherwise
-- CSS overrides belong in `assets/css/extended/`, especially `vars.css` and `custom.css`
-- Built site output is committed to `docs/`
-
-## Build and development
-
-There is no Node.js pipeline and no test suite in this repository.
-
-Use Hugo commands only:
+Use Hugo directly; there is no Node.js toolchain in this repository.
 
 ```bash
+# local development, including drafts
 hugo server -D
+
+# production-style build to the committed output directory
 hugo --destination docs
+
+# minified production build
 hugo --minify
 ```
 
-Use `hugo --destination docs` when you need to regenerate the committed site output. Hugo Extended v0.112+ is required.
+## Test and lint
 
-## Deployment and CI
+There is no automated test suite or lint configuration in this repo.
 
-- GitHub Actions runs on pushes to `master`
-- The workflow rebuilds the site into `docs/`
-- The workflow auto-commits updated generated output
+For validation, use:
 
-Because CI may create a new commit on `master`, a push can fail if the remote moved ahead. If asked to push, follow the `git-workflow` skill guidance and rebase instead of force-pushing.
+```bash
+hugo --destination docs
+```
 
-## Content structure
+## High-level architecture
 
-Song posts live under `content/posts/<artist-slug>/`.
+Melo Chords is a Hugo static site built on the `hugo-PaperMod` theme and published through GitHub Pages.
 
-- One song per Markdown file
-- Shared-artist songs use a combined directory such as `content/posts/colapesce-dimartino/`
-- Chord sheets belong inside a fenced `text` code block
-- YouTube embeds use `{{< youtube VIDEO_ID >}}`
+- Site-wide configuration lives in `hugo.yaml`
+- The homepage uses PaperMod **Profile Mode**
+- The home page also emits **JSON** (`outputs.home = HTML/RSS/JSON`), which supports the search page in `content/search.md`
+- Song content lives under `content/posts/<artist-slug>/`
+- Guide pages live under `content/tips/` and are also surfaced through the `tips` menu tree in `hugo.yaml`
+- The generated site is committed under `docs/`, and `.github/workflows/main.yml` rebuilds `docs/` on pushes to `master`
 
-Typical supporting content such as search/archive pages lives directly under `content/`.
+Most rendering comes from PaperMod, but this repository does have custom template overrides:
 
-## Front matter requirements for song posts
+- `layouts/partials/header.html` replaces the default header with a custom navigation implementation, including the dropdown menu for Guides
+- `layouts/partials/footer.html` customizes footer behavior while keeping PaperMod features like theme toggle and code-copy buttons
+- `assets/css/extended/vars.css` and `assets/css/extended/custom.css` hold the theme variable overrides and custom UI styling that PaperMod auto-loads
 
-Use this shape:
+## Content conventions
+
+Each song is a single Markdown file inside the matching artist directory:
+
+```text
+content/posts/<artist-slug>/<song-slug>.md
+```
+
+Use front matter in this shape:
 
 ```yaml
 ---
-author: ["carmelolg"]
 title: "Artist - Song Title"
+author: ["carmelolg"]
 date: "YYYY-MM-DD"
 description: ""
-livello: Basso
-autori: Artist Name
-genere: Cantautorato
+livello: Medio
+autori: "Artist Name"
+genere: "Cantautorato"
 ShowToc: false
 ---
 ```
 
-Important rules:
+Important repository-specific rules:
 
-- `title` should follow `Artist - Song Title`
-- For joint artists, use `&` in both `title` and `autori`
-- Populate all three taxonomies: `livello`, `autori`, and `genere`
-- Keep `autori` values consistent with existing entries to avoid duplicate taxonomy pages
+- Keep user-facing text in Italian
+- Put the chord sheet inside a fenced `text` code block
+- Add YouTube embeds with `{{< youtube VIDEO_ID >}}`
+- Use one directory per artist under `content/posts/`
+- For collaborations, use a combined artist directory such as `content/posts/colapesce-dimartino/` and join artist names with `&` in both `title` and `autori`
 
-## Taxonomies
+## Taxonomies and metadata
 
-The site uses these Italian taxonomies:
+`hugo.yaml` remaps Hugo taxonomies into the site’s Italian structure:
 
-- `livello`: difficulty
-- `autori`: artist
-- `genere`: genre
+- `livello` -> difficulty filter
+- `autori` -> artist filter
+- `genere` -> genre filter
 
-Allowed difficulty values are exact and must not be renamed:
+Populate all three on every song page.
+
+Use these exact `livello` values:
 
 - `Basso`
 - `Medio-Basso`
@@ -97,21 +91,29 @@ Allowed difficulty values are exact and must not be renamed:
 - `Medio-Alto`
 - `Alto`
 
-Assign `livello` from the actual playing difficulty of the arrangement, considering chord vocabulary, transition speed, rhythm, structure, and sing-and-play coordination.
+`autori` should match existing taxonomy values exactly to avoid creating duplicate artist filter pages with slightly different names.
 
-## Editing guidance
+## Chord-sheet editing conventions
 
-- Preserve existing style and structure unless the task requires a deliberate change
-- Keep section labels in Italian when editing song sheets
-- Prefer minimal, targeted edits over broad rewrites
-- Do not create duplicate song files when correcting an existing entry unless explicitly asked
-- Avoid introducing English UI copy into site content or navigation
+When editing an existing song:
 
-## Contribution defaults
+- edit the existing file in place unless the task explicitly requires a move
+- preserve front matter unless the metadata itself is wrong
+- keep section labels consistent with the repo style, e.g. `[Intro]`, `[Strofa 1]`, `[Ritornello]`, `[Bridge]`, `[Outro]`
+- prefer harmonic correctness over perfect spacing, but keep chord/lyric alignment readable
 
-When contributing:
+When chords look suspicious, compare multiple sources before changing harmony; treat user-submitted chord sites as hints, not ground truth.
 
-1. Read the relevant skill first.
-2. Keep changes aligned with Hugo and PaperMod conventions already used in the repo.
-3. Update generated `docs/` when the task requires a production build or modifies site output that should be committed.
-4. Use documentation-style commits for instruction changes and content-style commits for song additions or fixes.
+## Commit workflow
+
+When asked to commit:
+
+- use Conventional Commits
+- stage with `git add -A`
+- include the required trailer:
+
+```text
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+```
+
+Pushes go to `master`. Because CI auto-commits regenerated `docs/`, a rejected push should be handled with rebase rather than force-push.
