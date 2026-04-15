@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Genere on Melo Chords</title>
+    <link>https://org-carmelolg-private-labs.github.io/chords/genere/</link>
+    <description>Recent content in Genere on Melo Chords</description>
+    <generator>Hugo -- 0.160.1</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://org-carmelolg-private-labs.github.io/chords/genere/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cantautorato</title>
+      <link>https://org-carmelolg-private-labs.github.io/chords/genere/cantautorato/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/genere/cantautorato/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indie Folk</title>
+      <link>https://org-carmelolg-private-labs.github.io/chords/genere/indie-folk/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/genere/indie-folk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rock</title>
+      <link>https://org-carmelolg-private-labs.github.io/chords/genere/rock/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://org-carmelolg-private-labs.github.io/chords/genere/rock/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
