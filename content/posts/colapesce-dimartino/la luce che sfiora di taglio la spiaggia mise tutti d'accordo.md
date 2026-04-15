@@ -7,6 +7,10 @@ livello: Medio-Basso
 autori: "Colapesce & Dimartino"
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/7F534VA0nuQ/maxresdefault.jpg"
+  alt: "Colapesce & Dimartino - La luce che sfiora di taglio la spiaggia mise tutti d'accordo"
+  relative: false
 ---
 
 ```text

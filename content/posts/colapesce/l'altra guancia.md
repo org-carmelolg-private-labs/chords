@@ -7,6 +7,10 @@ livello: Medio-Basso
 autori: Colapesce
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/nsy9x_8ni8Q/maxresdefault.jpg"
+  alt: "Colapesce - L'altra guancia"
+  relative: false
 ---
 
 ```text

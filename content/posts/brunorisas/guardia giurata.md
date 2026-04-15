@@ -7,6 +7,10 @@ livello: Medio
 autori: Brunori Sas
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/iJmuhgQ7sS0/maxresdefault.jpg"
+  alt: "Brunori Sas - Guardia Giurata"
+  relative: false
 ---
 ```text
 MI FA#- SOL#- LA MI FA#- SI

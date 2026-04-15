@@ -7,6 +7,10 @@ livello: Medio-Basso
 autori: Incubus
 genere: Rock
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/xacQTfTRWA4/maxresdefault.jpg"
+  alt: "Incubus - Drive"
+  relative: false
 ---
 
 ```text

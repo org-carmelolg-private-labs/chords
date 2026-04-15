@@ -7,6 +7,10 @@ livello: Medio
 autori: Colapesce
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/x7GnPOZpZN4/maxresdefault.jpg"
+  alt: "Colapesce - Satellite"
+  relative: false
 ---
 
 ```text

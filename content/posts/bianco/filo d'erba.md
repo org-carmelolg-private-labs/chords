@@ -7,6 +7,10 @@ livello: Medio-Basso
 autori: Bianco
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/DoASbjgzQDI/maxresdefault.jpg"
+  alt: "Bianco - Filo d'erba"
+  relative: false
 ---
 ##### Capotasto: 1
 

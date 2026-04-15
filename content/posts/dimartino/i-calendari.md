@@ -7,6 +7,10 @@ livello: Medio
 autori: "Dimartino"
 genere: "Cantautorato"
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/3ir4dacMATQ/maxresdefault.jpg"
+  alt: "Dimartino - I Calendari"
+  relative: false
 ---
 
 # I Calendari

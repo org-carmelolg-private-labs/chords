@@ -7,6 +7,10 @@ livello: Medio-Basso
 autori: Colapesce
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/bWt0Bd7Mv38/maxresdefault.jpg"
+  alt: "Colapesce - Sottotitoli"
+  relative: false
 ---
 
 ```

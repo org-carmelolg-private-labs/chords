@@ -7,6 +7,10 @@ livello: Medio
 autori: "Colapesce & Dimartino"
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/h2Vs_Am6Cm0/maxresdefault.jpg"
+  alt: "Colapesce & Dimartino - Sesso e architettura"
+  relative: false
 ---
 
 ```text

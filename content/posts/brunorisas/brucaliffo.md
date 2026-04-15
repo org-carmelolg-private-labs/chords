@@ -7,6 +7,10 @@ livello: Alto
 autori: Brunori Sas
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/L8-Z92j_5aE/maxresdefault.jpg"
+  alt: "Brunori Sas - Brucaliffo"
+  relative: false
 ---
 ```
 Re7+                       Solm7   Do7

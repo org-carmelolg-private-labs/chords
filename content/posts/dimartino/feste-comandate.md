@@ -7,6 +7,10 @@ livello: Medio
 autori: "Dimartino"
 genere: "Cantautorato"
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/vJuDG3R3KLo/maxresdefault.jpg"
+  alt: "Dimartino - Feste comandate"
+  relative: false
 ---
 
 # Feste comandate

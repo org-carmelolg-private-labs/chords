@@ -7,6 +7,10 @@ livello: Medio-Basso
 autori: Lucio Dalla
 genere: Cantautorato
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/ZuAtgYddLx8/maxresdefault.jpg"
+  alt: "Lucio Dalla - L'ultima luna"
+  relative: false
 ---
 
 ```text

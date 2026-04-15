@@ -7,6 +7,10 @@ livello: Medio
 autori: "Sufjan Stevens"
 genere: "Indie folk"
 ShowToc: false
+cover:
+  image: "https://img.youtube.com/vi/4WTt69YO2VI/maxresdefault.jpg"
+  alt: "Sufjan Stevens - Mystery Of Love"
+  relative: false
 ---
 
 # Mystery Of Love
