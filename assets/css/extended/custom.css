@@ -27,6 +27,29 @@
     transform: translateY(0);
 }
 
+/* Header icon buttons (search, chi sono) */
+.header-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--secondary);
+    transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.header-icon-btn:hover {
+    color: var(--accent);
+    background-color: var(--accent-soft);
+}
+
+.logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
 .nav a,
 .menu-dropdown-summary,
 .top-link,
