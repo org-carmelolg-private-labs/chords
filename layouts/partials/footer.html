@@ -87,8 +87,52 @@
 
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}
 <script>
+    function enhanceChordSheet(codeblock) {
+        if (!codeblock.classList.contains('language-text') || !codeblock.closest('.post-single')) {
+            return;
+        }
+
+        const container = codeblock.closest('.highlight');
+        if (!container) {
+            return;
+        }
+
+        container.classList.add('chord-sheet');
+
+        let previousWasSection = false;
+        codeblock.querySelectorAll('.line').forEach((line) => {
+            const content = line.querySelector('.cl');
+            if (!content) {
+                previousWasSection = false;
+                return;
+            }
+
+            const text = content.textContent.trim();
+            if (/^\[[^\]]+\]$/.test(text)) {
+                container.classList.add('has-section-labels');
+                line.classList.add('chord-section-line');
+
+                const pill = document.createElement('span');
+                pill.className = 'chord-section-pill';
+                pill.textContent = text;
+
+                content.textContent = '';
+                content.appendChild(pill);
+                previousWasSection = true;
+                return;
+            }
+
+            if (previousWasSection && text === '') {
+                line.classList.add('chord-section-gap');
+            }
+
+            previousWasSection = false;
+        });
+    }
+
     document.querySelectorAll('pre > code').forEach((codeblock) => {
         const container = codeblock.parentNode.parentNode;
+        enhanceChordSheet(codeblock);
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');

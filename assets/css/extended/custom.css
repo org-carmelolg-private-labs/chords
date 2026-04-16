@@ -145,7 +145,166 @@
     background: var(--code-bg);
 }
 
+.entry-taxonomies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 14px 0 6px;
+}
+
+.entry-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 34px;
+    padding: 6px 12px;
+    color: var(--secondary);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.entry-pill-label {
+    color: var(--primary);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.entry-pill-difficulty {
+    color: var(--primary);
+    border-color: transparent;
+}
+
+.difficulty-basso {
+    background: rgba(47, 158, 68, 0.14);
+}
+
+.difficulty-medio-basso {
+    background: rgba(12, 166, 120, 0.16);
+}
+
+.difficulty-medio {
+    background: rgba(240, 180, 41, 0.2);
+}
+
+.difficulty-medio-alto {
+    background: rgba(245, 124, 0, 0.18);
+}
+
+.difficulty-alto {
+    background: rgba(224, 49, 49, 0.16);
+}
+
+.post-single .post-header,
+.post-single .post-footer,
+.post-single .post-content > h3,
+.post-single .post-content > h4,
+.post-single .post-content > h5,
+.post-single .post-content > h6,
+.post-single .post-content > p,
+.post-single .post-content > ul,
+.post-single .post-content > ol,
+.post-single .post-content > blockquote,
+.post-single .post-content > hr {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-single .post-content > .highlight.chord-sheet {
+    position: relative;
+    max-width: 100%;
+    margin: 24px auto 32px;
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) + 6px);
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0)),
+        var(--code-block-bg);
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+}
+
+.dark .post-single .post-content > .highlight.chord-sheet {
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.26);
+}
+
+.post-single .post-content > .highlight.chord-sheet pre {
+    margin: 0;
+}
+
+.post-single .post-content > .highlight.chord-sheet pre code {
+    display: block;
+    padding: 20px 18px 22px;
+    font-size: clamp(14px, 1.8vw, 16px);
+    line-height: 1.8;
+    color: rgb(240, 241, 244);
+    background: transparent !important;
+    white-space: pre;
+    word-break: normal;
+    overflow-x: auto;
+    tab-size: 4;
+}
+
+.post-single .post-content > .highlight.chord-sheet .line {
+    display: block;
+    min-height: 1.8em;
+}
+
+.post-single .post-content > .highlight.chord-sheet .chord-section-line {
+    margin: 1.2em 0 0.35em;
+}
+
+.post-single .post-content > .highlight.chord-sheet .chord-section-line:first-child {
+    margin-top: 0;
+}
+
+.post-single .post-content > .highlight.chord-sheet .chord-section-gap {
+    min-height: 0.75em;
+}
+
+.post-single .post-content > .highlight.chord-sheet .chord-section-pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 0 12px;
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 999px;
+}
+
+.dark .post-single .post-content > .highlight.chord-sheet .chord-section-pill {
+    color: rgb(245, 245, 247);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.post-single .post-content > div[style*="padding-bottom: 56.25%"] {
+    max-width: 860px;
+    margin: 0 auto 32px;
+    border-radius: calc(var(--radius) + 4px);
+    overflow: hidden;
+}
+
 @media (max-width: 767px) {
+    .post-single {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .post-single .post-content,
+    .post-single .entry-cover {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .nav {
         line-height: normal;
     }
@@ -197,5 +356,34 @@
 
     .menu-dropdown:not([open]) .sub-menu {
         display: none;
+    }
+
+    .entry-taxonomies {
+        gap: 8px;
+    }
+
+    .entry-pill {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .post-single .post-content > .highlight.chord-sheet {
+        width: 100%;
+        margin: 20px auto 28px;
+        border-radius: calc(var(--radius) + 4px);
+        border-inline-width: 1px;
+        box-sizing: border-box;
+    }
+
+    .post-single .post-content > .highlight.chord-sheet pre code {
+        padding: 18px 14px 20px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .post-single .post-content > .highlight.chord-sheet .chord-section-pill {
+        min-height: 30px;
+        padding: 0 10px;
+        font-size: 11px;
     }
 }

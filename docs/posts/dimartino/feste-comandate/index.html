@@ -10,7 +10,7 @@
 <meta name="description" content="Accordi per Feste comandate (Dimartino).">
 <meta name="author" content="carmelolg">
 <link rel="canonical" href="https://org-carmelolg-private-labs.github.io/chords/posts/dimartino/feste-comandate/">
-<link crossorigin="anonymous" href="/chords/assets/css/stylesheet.079017b4f6cb0dd0f660e8d1a36688314491f17f7f5a1347acfdcc6d71d676af.css" integrity="sha256-B5AXtPbLDdD2YOjRo2aIMUSR8X9/WhNHrP3MbXHWdq8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/chords/assets/css/stylesheet.de18cdfa069b51fa5ca8720407066d99d144c313eebca5ea637e4dc4b36d9c67.css" integrity="sha256-3hjN&#43;gabUfpcqHIEBwZtmdFEwxPuvKXqY35NxLNtnGc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://org-carmelolg-private-labs.github.io/chords/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://org-carmelolg-private-labs.github.io/chords/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://org-carmelolg-private-labs.github.io/chords/favicon-32x32.png">
@@ -395,8 +395,52 @@
 
 </script>
 <script>
+    function enhanceChordSheet(codeblock) {
+        if (!codeblock.classList.contains('language-text') || !codeblock.closest('.post-single')) {
+            return;
+        }
+
+        const container = codeblock.closest('.highlight');
+        if (!container) {
+            return;
+        }
+
+        container.classList.add('chord-sheet');
+
+        let previousWasSection = false;
+        codeblock.querySelectorAll('.line').forEach((line) => {
+            const content = line.querySelector('.cl');
+            if (!content) {
+                previousWasSection = false;
+                return;
+            }
+
+            const text = content.textContent.trim();
+            if (/^\[[^\]]+\]$/.test(text)) {
+                container.classList.add('has-section-labels');
+                line.classList.add('chord-section-line');
+
+                const pill = document.createElement('span');
+                pill.className = 'chord-section-pill';
+                pill.textContent = text;
+
+                content.textContent = '';
+                content.appendChild(pill);
+                previousWasSection = true;
+                return;
+            }
+
+            if (previousWasSection && text === '') {
+                line.classList.add('chord-section-gap');
+            }
+
+            previousWasSection = false;
+        });
+    }
+
     document.querySelectorAll('pre > code').forEach((codeblock) => {
         const container = codeblock.parentNode.parentNode;
+        enhanceChordSheet(codeblock);
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');

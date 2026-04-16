@@ -51,9 +51,9 @@ Vivi in fondo l'avventura
 
 
 [Post-ritornello]
- D       C#m            Bm
+ D7+     C#m            Bm
 Adesso sciogli i tuoi capelli
-                D
+                D7+
 Capitelli di barocco
        C#m          Bm
 Persi dentro lo scirocco
@@ -90,9 +90,9 @@ Vivi in fondo l'avventura
 
 
 [Post-ritornello]
-D        C#m            Bm
+D7+      C#m            Bm
 Adesso sciogli i tuoi capelli
-                 D
+                 D7+
 Capitelli di barocco
        C#m           Bm
 Persi dentro lo scirocco
@@ -121,9 +121,9 @@ A                       C#m
 
 
 [Outro]
-D       C#m             Bm
+D7+     C#m             Bm
 Adesso sciogli i tuoi capelli
-                 D
+                 D7+
 Capitelli di barocco
        C#m           Bm  A
 Persi dentro lo scirocco..
