@@ -2,6 +2,99 @@
     min-height: calc(75vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
 }
 
+/* ── Search page ──────────────────────────────────── */
+
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input-icon {
+    position: absolute;
+    left: 14px;
+    color: var(--secondary);
+    pointer-events: none;
+    flex-shrink: 0;
+}
+
+#searchbox input {
+    padding: 12px 14px 12px 44px;
+    width: 100%;
+    font-size: 16px;
+    color: var(--primary);
+    background: var(--entry);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+#searchbox input:focus {
+    border-color: var(--accent-border);
+    box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.12);
+    outline: none;
+}
+
+.search-meta {
+    min-height: 24px;
+    margin: 10px 2px 4px;
+    font-size: 13px;
+    color: var(--secondary);
+}
+
+#searchResults {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#searchResults li {
+    list-style: none;
+    border-radius: var(--radius);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+#searchResults li:hover,
+#searchResults .focus {
+    border-color: var(--accent-border);
+    box-shadow: 0 4px 14px rgba(var(--accent-rgb), 0.1);
+    transform: translateY(-1px);
+}
+
+#searchResults li:active {
+    transform: scale(0.99);
+    transition: transform 0.08s;
+}
+
+#searchResults a {
+    position: absolute;
+    inset: 0;
+    outline: none;
+    border-radius: var(--radius);
+}
+
+.search-result-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 16px 6px;
+    line-height: 1.4;
+    color: var(--primary);
+}
+
+.search-result-badges {
+    padding: 0 16px 14px;
+}
+
+/* ── End search page ──────────────────────────────── */
+
 /* ── Artists page ─────────────────────────────────── */
 
 .artists-page-header {
