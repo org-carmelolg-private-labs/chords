@@ -1,0 +1,83 @@
+{{- define "main" }}
+
+<header class="page-header genres-page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <p class="post-description">{{ .Description }}</p>
+    {{- end }}
+    <p class="genres-subtitle">
+        {{- $total := len .Data.Terms }}
+        {{ $total }} {{ if eq $total 1 }}genere{{ else }}generi{{ end }}
+    </p>
+</header>
+
+<div class="genres-grid">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+
+    {{- /* Collect unique artists for this genre */ -}}
+    {{- $artists := slice }}
+    {{- range .Pages }}
+        {{- $a := .Param "autori" }}
+        {{- if and $a (not (in $artists $a)) }}
+            {{- $artists = $artists | append $a }}
+        {{- end }}
+    {{- end }}
+
+    {{- /* Pick an icon and accent class based on genre name */ -}}
+    {{- $icon := "🎵" }}
+    {{- $genreClass := "genre-default" }}
+    {{- if in (lower $name) "cantautorato" }}
+        {{- $icon = "🎹" }}
+        {{- $genreClass = "genre-cantautorato" }}
+    {{- else if in (lower $name) "rock" }}
+        {{- $icon = "🎸" }}
+        {{- $genreClass = "genre-rock" }}
+    {{- else if in (lower $name) "folk" }}
+        {{- $icon = "🪕" }}
+        {{- $genreClass = "genre-folk" }}
+    {{- else if in (lower $name) "pop" }}
+        {{- $icon = "🎤" }}
+        {{- $genreClass = "genre-pop" }}
+    {{- else if in (lower $name) "jazz" }}
+        {{- $icon = "🎷" }}
+        {{- $genreClass = "genre-jazz" }}
+    {{- end }}
+
+    <a href="{{ .Permalink }}" class="genre-card {{ $genreClass }}" aria-label="Genere {{ .Name }}, {{ $count }} brani">
+        <div class="genre-card-top">
+            <span class="genre-icon" aria-hidden="true">{{ $icon }}</span>
+            <div class="genre-card-meta">
+                <h2 class="genre-name">{{ .Name }}</h2>
+                <span class="genre-count">{{ $count }} {{ if eq $count 1 }}brano{{ else }}brani{{ end }}</span>
+            </div>
+        </div>
+        {{- if $artists }}
+        <div class="genre-artists">
+            {{- range $i, $a := $artists }}
+                {{- if gt $i 0 }}<span class="genre-artists-sep" aria-hidden="true">·</span>{{ end }}
+                <span class="genre-artist-name">{{ $a }}</span>
+            {{- end }}
+        </div>
+        {{- end }}
+        {{- $preview := first 3 .Pages }}
+        {{- if $preview }}
+        <ul class="genre-songs-preview" aria-label="Alcuni brani">
+            {{- range $preview }}
+            <li>{{ .Title }}</li>
+            {{- end }}
+            {{- if gt $count 3 }}
+            <li class="genre-songs-more">e altri {{ sub $count 3 }}…</li>
+            {{- end }}
+        </ul>
+        {{- end }}
+    </a>
+
+    {{- end }}
+    {{- end }}
+</div>
+
+{{- end }}

@@ -320,6 +320,143 @@
 
 /* ── End search page ──────────────────────────────── */
 
+/* ── Genres page ──────────────────────────────────── */
+
+.genres-page-header {
+    margin-bottom: 28px;
+}
+
+.genres-subtitle {
+    font-size: 13px;
+    color: var(--secondary);
+    margin: 4px 0 0;
+}
+
+.genres-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.genre-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 22px 20px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--genre-accent, var(--accent));
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--primary);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.genre-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(var(--accent-rgb), 0.13);
+    color: var(--primary);
+}
+
+.genre-card:active { transform: scale(0.98); }
+
+.genre-cantautorato { --genre-accent: rgb(182, 126, 52); }
+.genre-rock         { --genre-accent: #dc2626; }
+.genre-folk         { --genre-accent: #16a34a; }
+.genre-pop          { --genre-accent: #7c3aed; }
+.genre-jazz         { --genre-accent: #0369a1; }
+.genre-default      { --genre-accent: var(--accent); }
+
+.genre-card-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.genre-icon {
+    font-size: 32px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.genre-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.genre-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.genre-count {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--secondary);
+    letter-spacing: 0.03em;
+}
+
+.genre-artists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--secondary);
+}
+
+.genre-artist-name {
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.genre-artists-sep {
+    color: var(--secondary);
+    font-size: 11px;
+}
+
+.genre-songs-preview {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.genre-songs-preview li {
+    font-size: 13px;
+    color: var(--secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 12px;
+    position: relative;
+}
+
+.genre-songs-preview li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    color: var(--genre-accent, var(--accent));
+}
+
+.genre-songs-more {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--secondary);
+}
+
+@media (max-width: 600px) {
+    .genres-grid { grid-template-columns: 1fr; }
+}
+
 /* ── Artists page ─────────────────────────────────── */
 
 .artists-page-header {
