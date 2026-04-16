@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Colapesce - L'altra guancia"
 date: "2025-10-20"
-description: ""
+description: "Accordi per L'altra guancia (Colapesce)."
 livello: Medio-Basso
-autori: Colapesce
-genere: Cantautorato
+autori: "Colapesce"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/nsy9x_8ni8Q/maxresdefault.jpg"
   alt: "Colapesce - L'altra guancia"
   relative: false
 ---
+
+# L'altra guancia
 
 ```text
 DO         MI-        LA-

@@ -2,10 +2,10 @@
 author: ["carmelolg"]
 title: "Colapesce - Sottocoperta"
 date: "2025-10-19"
-description: ""
+description: "Accordi per Sottocoperta (Colapesce)."
 livello: Medio-Basso
-autori: Colapesce
-genere: Cantautorato
+autori: "Colapesce"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/2k5JtYY7FKU/maxresdefault.jpg"
@@ -13,6 +13,8 @@ cover:
   relative: false
 ---
 ##### Capotasto: 4
+
+# Sottocoperta
 
 ##### Note 
 > Il G7/6 è in realtà leggermente diverso, cioè con il DO alla quinta corda al posto del RE (vedi tab).

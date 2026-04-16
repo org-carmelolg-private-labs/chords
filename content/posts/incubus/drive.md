@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Incubus - Drive"
 date: "2026-04-12"
-description: ""
+description: "Accordi per Drive (Incubus)."
 livello: Medio-Basso
-autori: Incubus
-genere: Rock
+autori: "Incubus"
+genere: "Rock"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/xacQTfTRWA4/maxresdefault.jpg"
   alt: "Incubus - Drive"
   relative: false
 ---
+
+# Drive
 
 ```text
 [Intro]

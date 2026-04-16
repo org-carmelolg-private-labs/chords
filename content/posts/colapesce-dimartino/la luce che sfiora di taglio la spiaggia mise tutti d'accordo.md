@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Colapesce & Dimartino - La luce che sfiora di taglio la spiaggia mise tutti d'accordo"
 date: "2026-04-08"
-description: ""
+description: "Accordi per La luce che sfiora di taglio la spiaggia mise tutti d'accordo (Colapesce & Dimartino)."
 livello: Medio-Basso
 autori: "Colapesce & Dimartino"
-genere: Cantautorato
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/7F534VA0nuQ/maxresdefault.jpg"
   alt: "Colapesce & Dimartino - La luce che sfiora di taglio la spiaggia mise tutti d'accordo"
   relative: false
 ---
+
+# La luce che sfiora di taglio la spiaggia mise tutti d'accordo
 
 ```text
 [Intro]

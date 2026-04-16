@@ -2,17 +2,20 @@
 author: ["carmelolg"]
 title: "Brunori Sas - Brucaliffo"
 date: "2025-10-19"
-description: ""
+description: "Accordi per Brucaliffo (Brunori Sas)."
 livello: Alto
-autori: Brunori Sas
-genere: Cantautorato
+autori: "Brunori Sas"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/L8-Z92j_5aE/maxresdefault.jpg"
   alt: "Brunori Sas - Brucaliffo"
   relative: false
 ---
-```
+
+# Brucaliffo
+
+```text
 Re7+                       Solm7   Do7
 No, non ti preoccupare
 Re7+                               Solm7   Do7

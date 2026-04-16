@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Colapesce - Satellite"
 date: "2025-10-20"
-description: ""
+description: "Accordi per Satellite (Colapesce)."
 livello: Medio
-autori: Colapesce
-genere: Cantautorato
+autori: "Colapesce"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/x7GnPOZpZN4/maxresdefault.jpg"
   alt: "Colapesce - Satellite"
   relative: false
 ---
+
+# Satellite
 
 ```text
 MI  Fa#     MI Fa#    MI Fa#  Sol#m

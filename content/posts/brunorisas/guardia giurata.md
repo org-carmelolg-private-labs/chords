@@ -2,16 +2,19 @@
 author: ["carmelolg"]
 title: "Brunori Sas - Guardia Giurata"
 date: "2025-10-19"
-description: ""
+description: "Accordi per Guardia Giurata (Brunori Sas)."
 livello: Medio
-autori: Brunori Sas
-genere: Cantautorato
+autori: "Brunori Sas"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/iJmuhgQ7sS0/maxresdefault.jpg"
   alt: "Brunori Sas - Guardia Giurata"
   relative: false
 ---
+
+# Guardia Giurata
+
 ```text
 MI FA#- SOL#- LA MI FA#- SI
 
@@ -32,7 +35,7 @@ Guardia giurata, ti prego, non fare lo stronzo
 FA#-							SI
 Apri questa cazzo di sbarra, che sta arrivando la fine del mondo
 
-RIT.
+[Ritornello]
 LA
 E poi i cieli si sono aperti
 MI7+

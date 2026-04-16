@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Lucio Dalla - L'ultima luna"
 date: "2026-04-08"
-description: ""
+description: "Accordi per L'ultima luna (Lucio Dalla)."
 livello: Medio-Basso
-autori: Lucio Dalla
-genere: Cantautorato
+autori: "Lucio Dalla"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/ZuAtgYddLx8/maxresdefault.jpg"
   alt: "Lucio Dalla - L'ultima luna"
   relative: false
 ---
+
+# L'ultima luna
 
 ```text
 Do  Fam7  Fam6  Do  Fam7  Fa6  (x2)

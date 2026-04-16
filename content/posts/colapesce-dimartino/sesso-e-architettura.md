@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Colapesce & Dimartino - Sesso e architettura"
 date: "2026-04-09"
-description: ""
+description: "Accordi per Sesso e architettura (Colapesce & Dimartino)."
 livello: Medio
 autori: "Colapesce & Dimartino"
-genere: Cantautorato
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/h2Vs_Am6Cm0/maxresdefault.jpg"
   alt: "Colapesce & Dimartino - Sesso e architettura"
   relative: false
 ---
+
+# Sesso e architettura
 
 ```text
 [Intro]

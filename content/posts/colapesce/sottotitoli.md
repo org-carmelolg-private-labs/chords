@@ -2,16 +2,18 @@
 author: ["carmelolg"]
 title: "Colapesce - Sottotitoli"
 date: "2025-10-19"
-description: ""
+description: "Accordi per Sottotitoli (Colapesce)."
 livello: Medio-Basso
-autori: Colapesce
-genere: Cantautorato
+autori: "Colapesce"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/bWt0Bd7Mv38/maxresdefault.jpg"
   alt: "Colapesce - Sottotitoli"
   relative: false
 ---
+
+# Sottotitoli
 
 ```
  REsus7     

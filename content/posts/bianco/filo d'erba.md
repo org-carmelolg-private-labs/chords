@@ -2,10 +2,10 @@
 author: ["carmelolg"]
 title: "Bianco - Filo d'erba"
 date: "2025-10-20"
-description: ""
+description: "Accordi per Filo d'erba (Bianco)."
 livello: Medio-Basso
-autori: Bianco
-genere: Cantautorato
+autori: "Bianco"
+genere: "Cantautorato"
 ShowToc: false
 cover:
   image: "https://img.youtube.com/vi/DoASbjgzQDI/maxresdefault.jpg"
@@ -13,6 +13,8 @@ cover:
   relative: false
 ---
 ##### Capotasto: 1
+
+# Filo d'erba
 
 ```text
 LA                 RE
