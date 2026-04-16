@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# Sottotitoli
-
 ```
  REsus7     
 e -0--

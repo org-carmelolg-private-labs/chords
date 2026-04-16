@@ -14,8 +14,6 @@ cover:
 ---
 ##### Capotasto: 4
 
-# Sottocoperta
-
 ##### Note 
 > Il G7/6 è in realtà leggermente diverso, cioè con il DO alla quinta corda al posto del RE (vedi tab).
 

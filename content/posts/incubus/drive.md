@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# Drive
-
 ```text
 [Intro]
 MIm  RE/MI  DO7+  LA5  (x4)

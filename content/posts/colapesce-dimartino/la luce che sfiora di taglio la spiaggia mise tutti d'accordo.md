@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# La luce che sfiora di taglio la spiaggia mise tutti d'accordo
-
 ```text
 [Intro]
 SOL MI- LA

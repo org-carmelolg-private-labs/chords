@@ -13,8 +13,6 @@ cover:
   relative: true
 ---
 
-# Mystery Of Love
-
 ```text
 [Intro]
 C D Em/B D (x2)

@@ -13,7 +13,6 @@ cover:
   relative: false
 ---
 
-# Sesso e architettura
 
 ```text
 [Intro]

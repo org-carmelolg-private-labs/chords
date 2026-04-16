@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# L'altra guancia
-
 ```text
 DO         MI-        LA-
 Diremo così a chi ci vuole ferire:

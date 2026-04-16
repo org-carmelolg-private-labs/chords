@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# I Calendari
-
 ```text
 Intro: (G) D G D G D E- C D
  

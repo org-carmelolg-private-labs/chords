@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# L'ultima luna
-
 ```text
 Do  Fam7  Fam6  Do  Fam7  Fa6  (x2)
 Do  Do5-  Fa6/Do  Do  (x2)

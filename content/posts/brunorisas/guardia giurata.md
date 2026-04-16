@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# Guardia Giurata
-
 ```text
 MI FA#- SOL#- LA MI FA#- SI
 

@@ -14,8 +14,6 @@ cover:
 ---
 ##### Capotasto: 1
 
-# Filo d'erba
-
 ```text
 LA                 RE
 Io mi dissolverò

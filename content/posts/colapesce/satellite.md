@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# Satellite
-
 ```text
 MI  Fa#     MI Fa#    MI Fa#  Sol#m
 

@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# Feste comandate
-
 ```text
 [Intro]
 Cm C G

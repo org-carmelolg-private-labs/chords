@@ -13,8 +13,6 @@ cover:
   relative: false
 ---
 
-# Brucaliffo
-
 ```text
 Re7+                       Solm7   Do7
 No, non ti preoccupare
