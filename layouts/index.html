@@ -6,7 +6,7 @@
 
 <div class="home-hero">
   <div class="home-hero-inner">
-    <span class="home-hero-icon" aria-hidden="true">🎸</span>
+    <img class="home-hero-avatar" src="{{ "me.png" | absURL }}" alt="Carmelo" width="100" height="100" />
     <h1 class="home-hero-title">Melo Chords</h1>
     <p class="home-hero-subtitle">la rappresentazione digitale delle mie performance da cameretta</p>
     <div class="home-stats" aria-label="Statistiche sito">
@@ -30,17 +30,17 @@
 </div>
 
 <nav class="home-tiles" aria-label="Naviga per categoria">
-  <a href="/posts/" class="home-tile">
+  <a href="/chords/posts/" class="home-tile">
     <span class="home-tile-icon" aria-hidden="true">🎵</span>
     <span class="home-tile-label">Canzoni</span>
     <span class="home-tile-sub">{{ $songCount }} brani</span>
   </a>
-  <a href="/autori/" class="home-tile">
+  <a href="/chords/autori/" class="home-tile">
     <span class="home-tile-icon" aria-hidden="true">🎤</span>
     <span class="home-tile-label">Artisti</span>
     <span class="home-tile-sub">{{ $artistCount }} artisti</span>
   </a>
-  <a href="/genere/" class="home-tile">
+  <a href="/chords/genere/" class="home-tile">
     <span class="home-tile-icon" aria-hidden="true">🎼</span>
     <span class="home-tile-label">Generi</span>
     <span class="home-tile-sub">{{ $genreCount }} generi</span>
@@ -75,7 +75,7 @@
     </a>
     {{- end }}
   </div>
-  <a href="/posts/" class="home-all-link">Vedi tutte le canzoni →</a>
+  <a href="/chords/posts/" class="home-all-link">Vedi tutte le canzoni →</a>
 </section>
 {{- end }}
 

@@ -38,14 +38,14 @@ languages:
           weight: 4
         - name: Artisti
           url: autori/
-          weight: 2
+          weight: 3
         - name: Ricerca
           url: search/
-          weight: 1
+          weight: 2
         - identifier: tips
           name: Guide
           url: tips/
-          weight: 3
+          weight: 1
         - name: Pentatonica minore di Mi
           url: tips/pentatonica-mi-minore/
           parent: tips

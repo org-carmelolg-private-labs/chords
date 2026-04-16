@@ -12,9 +12,12 @@
     gap: 10px;
 }
 
-.home-hero-icon {
-    font-size: 48px;
-    line-height: 1;
+.home-hero-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--accent-border);
 }
 
 .home-hero-title {
