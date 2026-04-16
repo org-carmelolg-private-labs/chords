@@ -1,0 +1,82 @@
+{{- define "main" }}
+
+{{- $songCount := len (where site.RegularPages "Section" "posts") }}
+{{- $artistCount := len site.Taxonomies.autori }}
+{{- $genreCount := len site.Taxonomies.genere }}
+
+<div class="home-hero">
+  <div class="home-hero-inner">
+    <span class="home-hero-icon" aria-hidden="true">🎸</span>
+    <h1 class="home-hero-title">Melo Chords</h1>
+    <p class="home-hero-subtitle">la rappresentazione digitale delle mie performance da cameretta</p>
+    <div class="home-stats" aria-label="Statistiche sito">
+      <span>{{ $songCount }} canzoni</span>
+      <span class="home-stats-sep" aria-hidden="true">·</span>
+      <span>{{ $artistCount }} artisti</span>
+      <span class="home-stats-sep" aria-hidden="true">·</span>
+      <span>{{ $genreCount }} generi</span>
+    </div>
+  </div>
+</div>
+
+<div class="home-search-bar">
+  <a href="/search/" class="home-search-link" aria-label="Vai alla ricerca">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <span>Cerca un brano o un artista…</span>
+  </a>
+</div>
+
+<nav class="home-tiles" aria-label="Naviga per categoria">
+  <a href="/posts/" class="home-tile">
+    <span class="home-tile-icon" aria-hidden="true">🎵</span>
+    <span class="home-tile-label">Canzoni</span>
+    <span class="home-tile-sub">{{ $songCount }} brani</span>
+  </a>
+  <a href="/autori/" class="home-tile">
+    <span class="home-tile-icon" aria-hidden="true">🎤</span>
+    <span class="home-tile-label">Artisti</span>
+    <span class="home-tile-sub">{{ $artistCount }} artisti</span>
+  </a>
+  <a href="/genere/" class="home-tile">
+    <span class="home-tile-icon" aria-hidden="true">🎼</span>
+    <span class="home-tile-label">Generi</span>
+    <span class="home-tile-sub">{{ $genreCount }} generi</span>
+  </a>
+</nav>
+
+{{- $recentSongs := first 6 (sort (where site.RegularPages "Section" "posts") "Date" "desc") }}
+{{- if $recentSongs }}
+<section class="home-recent" aria-labelledby="home-recent-heading">
+  <h2 id="home-recent-heading" class="home-section-title">Aggiunti di recente</h2>
+  <div class="home-recent-grid">
+    {{- range $recentSongs }}
+    {{- $difficulty := .Param "livello" }}
+    {{- $authors := .Param "autori" }}
+    {{- $difficultyClass := "" }}
+    {{- if eq $difficulty "Basso" }}{{- $difficultyClass = "difficulty-basso" }}
+    {{- else if eq $difficulty "Medio-Basso" }}{{- $difficultyClass = "difficulty-medio-basso" }}
+    {{- else if eq $difficulty "Medio" }}{{- $difficultyClass = "difficulty-medio" }}
+    {{- else if eq $difficulty "Medio-Alto" }}{{- $difficultyClass = "difficulty-medio-alto" }}
+    {{- else if eq $difficulty "Alto" }}{{- $difficultyClass = "difficulty-alto" }}
+    {{- end }}
+    <a href="{{ .Permalink }}" class="home-song-card" aria-label="{{ .Title }}">
+      <span class="home-song-title">{{ .Title }}</span>
+      <div class="home-song-meta">
+        {{- with $difficulty }}
+        <span class="entry-pill entry-pill-difficulty {{ $difficultyClass }}">{{ . }}</span>
+        {{- end }}
+        {{- with $authors }}
+        <span class="entry-pill">{{ . }}</span>
+        {{- end }}
+      </div>
+    </a>
+    {{- end }}
+  </div>
+  <a href="/posts/" class="home-all-link">Vedi tutte le canzoni →</a>
+</section>
+{{- end }}
+
+{{- end }}

@@ -30,19 +30,22 @@ languages:
       series: genere
     menu:
       main:
-        - name: Canzoni
-          url: posts/
-          weight: 2
+        # - name: Canzoni
+        #   url: posts/
+        #   weight: 2
+        - name: Chi sono
+          url: https://carmelolg.github.io/
+          weight: 4
         - name: Artisti
           url: autori/
-          weight: 3
+          weight: 2
         - name: Ricerca
           url: search/
           weight: 1
         - identifier: tips
           name: Guide
           url: tips/
-          weight: 4
+          weight: 3
         - name: Pentatonica minore di Mi
           url: tips/pentatonica-mi-minore/
           parent: tips
