@@ -1,0 +1,40 @@
+{{- define "main" }}
+
+<header class="page-header artists-page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <p class="post-description">{{ .Description }}</p>
+    {{- end }}
+    <p class="artists-subtitle">
+        {{- $total := len .Data.Terms }}
+        {{ $total }} {{ if eq $total 1 }}artista{{ else }}artisti{{ end }}
+    </p>
+</header>
+
+<div class="artists-grid">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <a href="{{ .Permalink }}" class="artist-card">
+        <div class="artist-avatar">
+            {{- $words := split $name " " -}}
+            {{- $first := substr (index $words 0) 0 1 -}}
+            {{- if gt (len $words) 1 -}}
+                {{- $last := substr (index $words (sub (len $words) 1)) 0 1 -}}
+                {{- $first }}{{ $last -}}
+            {{- else -}}
+                {{- $first -}}
+            {{- end }}
+        </div>
+        <div class="artist-info">
+            <span class="artist-name">{{ .Name }}</span>
+            <span class="artist-count">{{ $count }} {{ if eq $count 1 }}brano{{ else }}brani{{ end }}</span>
+        </div>
+    </a>
+    {{- end }}
+    {{- end }}
+</div>
+
+{{- end }}
