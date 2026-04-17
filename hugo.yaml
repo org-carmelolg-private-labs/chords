@@ -1,5 +1,6 @@
 baseURL: "https://org-carmelolg-private-labs.github.io/chords"
 languageCode: it-IT
+defaultContentLanguage: it
 title: Melo Chords
 theme: ["hugo-PaperMod"]
 

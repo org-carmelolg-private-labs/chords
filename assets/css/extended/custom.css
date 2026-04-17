@@ -768,20 +768,30 @@
     align-items: center;
     gap: 5px;
     padding: 3px 9px;
-    color: var(--primary);
-    background: var(--accent-soft);
-    border: 1px solid var(--accent-border);
+    color: #374151;
+    background: rgba(229, 231, 235, 0.5);
+    border: 1px solid rgba(209, 213, 219, 0.6);
     border-radius: 999px;
     font-size: 12px;
     line-height: 1.4;
 }
 
+.dark .entry-pill {
+    color: #d1d5db;
+    background: rgba(75, 85, 99, 0.25);
+    border: 1px solid rgba(107, 114, 128, 0.4);
+}
+
 .entry-pill-label {
-    color: var(--accent);
+    color: #6b7280;
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.dark .entry-pill-label {
+    color: #9ca3af;
 }
 
 .entry-pill-difficulty {
@@ -795,53 +805,53 @@
 }
 
 .difficulty-basso {
-    background: rgba(34, 197, 94, 0.15);
-    color: #166534;
-}
-
-.difficulty-medio-basso {
-    background: rgba(20, 184, 166, 0.15);
-    color: #0f5a52;
-}
-
-.difficulty-medio {
-    background: rgba(234, 179, 8, 0.15);
+    background: rgba(254, 249, 195, 0.6);
     color: #854d0e;
 }
 
-.difficulty-medio-alto {
-    background: rgba(249, 115, 22, 0.15);
+.difficulty-medio-basso {
+    background: rgba(254, 243, 199, 0.65);
+    color: #92400e;
+}
+
+.difficulty-medio {
+    background: rgba(254, 215, 170, 0.7);
     color: #9a3412;
 }
 
+.difficulty-medio-alto {
+    background: rgba(254, 202, 202, 0.7);
+    color: #991b1b;
+}
+
 .difficulty-alto {
-    background: rgba(239, 68, 68, 0.15);
+    background: rgba(254, 202, 202, 0.8);
     color: #991b1b;
 }
 
 .dark .difficulty-basso {
-    background: rgba(34, 197, 94, 0.18);
-    color: #86efac;
+    background: rgba(254, 240, 138, 0.2);
+    color: #fef08a;
 }
 
 .dark .difficulty-medio-basso {
-    background: rgba(20, 184, 166, 0.18);
-    color: #5eead4;
-}
-
-.dark .difficulty-medio {
-    background: rgba(234, 179, 8, 0.18);
+    background: rgba(253, 224, 71, 0.22);
     color: #fde047;
 }
 
-.dark .difficulty-medio-alto {
-    background: rgba(249, 115, 22, 0.18);
+.dark .difficulty-medio {
+    background: rgba(251, 146, 60, 0.25);
     color: #fdba74;
 }
 
-.dark .difficulty-alto {
-    background: rgba(239, 68, 68, 0.18);
+.dark .difficulty-medio-alto {
+    background: rgba(252, 165, 165, 0.25);
     color: #fca5a5;
+}
+
+.dark .difficulty-alto {
+    background: rgba(248, 113, 113, 0.3);
+    color: #f87171;
 }
 
 .post-tags a,
