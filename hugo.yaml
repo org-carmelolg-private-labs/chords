@@ -43,14 +43,6 @@ languages:
         - name: Ricerca
           url: search/
           weight: 2
-        - identifier: tips
-          name: Guide
-          url: tips/
-          weight: 1
-        - name: Pentatonica minore di Mi
-          url: tips/pentatonica-mi-minore/
-          parent: tips
-          weight: 1
 
 outputs:
   home:
@@ -94,6 +86,8 @@ params:
         url: autori
       - name: Filtra per genere
         url: genere
+      - name: Guide
+        url: tips
 
   homeInfoParams:
     Title: "🎸 Melo Chords"
