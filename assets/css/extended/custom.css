@@ -599,6 +599,15 @@ button#theme-toggle:hover {
 
 /* ── End theme toggle ─────────────────────────────── */
 
+/* ── Top-link: keep aligned with theme toggle ──────── */
+/* PaperMod on mobile pushes .top-link up 5rem on list pages; reset it */
+@media screen and (max-width: 900px) {
+    .list .top-link {
+        transform: none;
+    }
+}
+/* ── End top-link ─────────────────────────────────── */
+
 .buttons {
     flex-wrap: wrap-reverse;
     max-width: 400px;
