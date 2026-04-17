@@ -18,7 +18,12 @@
     {{- $count := .Count }}
     {{- with site.GetPage (printf "/%s/%s" $type $name) }}
     <a href="{{ .Permalink }}" class="artist-card">
-        <div class="artist-avatar">
+        {{- $slug := $name | urlize }}
+        {{- $artistData := index hugo.Data.artists $slug }}
+        <div class="artist-avatar{{- if and $artistData $artistData.image }} artist-avatar-img{{- end }}">
+            {{- if and $artistData $artistData.image }}
+            <img src="{{ $artistData.image }}" alt="{{ $name }}" loading="lazy" />
+            {{- else }}
             {{- $words := split $name " " -}}
             {{- $first := substr (index $words 0) 0 1 -}}
             {{- if gt (len $words) 1 -}}
@@ -26,6 +31,7 @@
                 {{- $first }}{{ $last -}}
             {{- else -}}
                 {{- $first -}}
+            {{- end }}
             {{- end }}
         </div>
         <div class="artist-info">
