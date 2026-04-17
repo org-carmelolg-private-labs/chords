@@ -10,7 +10,7 @@
 <meta name="description" content="Accordi per L&#39;altra guancia (Colapesce).">
 <meta name="author" content="carmelolg">
 <link rel="canonical" href="https://org-carmelolg-private-labs.github.io/chords/posts/colapesce/laltra-guancia/">
-<link crossorigin="anonymous" href="/chords/assets/css/stylesheet.8fe690233a78aea301c577484be4128818a75c10eb9fabdffdb40cdb4246f21c.css" integrity="sha256-j&#43;aQIzp4rqMBxXdIS&#43;QSiBinXBDrn6vf/bQM20JG8hw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/chords/assets/css/stylesheet.bd74d020281a764dd8e12307e24a82f91e4bf903ac1688d9aaf986172705048f.css" integrity="sha256-vXTQICgadk3Y4SMH4kqC&#43;R5L&#43;QOsFojZqvmGFycFBI8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://org-carmelolg-private-labs.github.io/chords/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://org-carmelolg-private-labs.github.io/chords/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://org-carmelolg-private-labs.github.io/chords/favicon-32x32.png">
@@ -338,6 +338,88 @@
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<div id="autoscroll-widget" class="autoscroll-widget" aria-label="Auto-scroll">
+    <button id="autoscroll-toggle" class="autoscroll-btn" title="Avvia auto-scroll" aria-label="Avvia auto-scroll">
+        <svg id="as-play" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            fill="currentColor" aria-hidden="true">
+            <polygon points="5,3 19,12 5,21"/>
+        </svg>
+        <svg id="as-pause" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            fill="currentColor" aria-hidden="true" style="display:none">
+            <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
+        </svg>
+    </button>
+    <div class="autoscroll-speeds">
+        <button class="autoscroll-speed active" data-px="30" title="Lento">Lento</button>
+        <button class="autoscroll-speed" data-px="45" title="Medio">Medio</button>
+        <button class="autoscroll-speed" data-px="60" title="Veloce">Veloce</button>
+    </div>
+</div>
+
+<script>
+(function () {
+    const widget   = document.getElementById('autoscroll-widget');
+    const toggle   = document.getElementById('autoscroll-toggle');
+    const playIcon = document.getElementById('as-play');
+    const pauseIcon= document.getElementById('as-pause');
+    const speeds   = document.querySelectorAll('.autoscroll-speed');
+
+    let running  = false;
+    let rafId    = null;
+    let lastTime = null;
+    let accumulated = 0;
+    let pxPerSec = 30; 
+
+    speeds.forEach(btn => {
+        btn.addEventListener('click', () => {
+            speeds.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            pxPerSec = parseFloat(btn.dataset.px);
+        });
+    });
+
+    function step(ts) {
+        if (!running) return;
+        if (lastTime !== null) {
+            const delta = (ts - lastTime) / 1000;
+            accumulated += pxPerSec * delta;
+
+            if (accumulated >= 1) {
+                const toScroll = Math.floor(accumulated);
+                window.scrollBy(0, toScroll);
+                accumulated -= toScroll;
+            }
+
+            const atBottom = (window.innerHeight + window.scrollY) >= document.body.scrollHeight - 2;
+            if (atBottom) { stop(); return; }
+        }
+        lastTime = ts;
+        rafId = requestAnimationFrame(step);
+    }
+
+    function start() {
+        running     = true;
+        lastTime    = null;
+        accumulated = 0;
+        playIcon.style.display  = 'none';
+        pauseIcon.style.display = '';
+        toggle.title = 'Pausa auto-scroll';
+        toggle.setAttribute('aria-label', 'Pausa auto-scroll');
+        rafId = requestAnimationFrame(step);
+    }
+
+    function stop() {
+        running = false;
+        if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+        playIcon.style.display  = '';
+        pauseIcon.style.display = 'none';
+        toggle.title = 'Avvia auto-scroll';
+        toggle.setAttribute('aria-label', 'Avvia auto-scroll');
+    }
+
+    toggle.addEventListener('click', () => running ? stop() : start());
+})();
+</script>
 
 <script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

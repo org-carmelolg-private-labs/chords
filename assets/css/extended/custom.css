@@ -1234,3 +1234,68 @@ button#theme-toggle:hover {
 }
 
 /* ── End footer navigation ─────────────────────── */
+
+/* ── Auto-scroll widget ────────────────────────── */
+
+.autoscroll-widget {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--tertiary);
+    border-radius: 64px;
+    padding: 6px 10px 6px 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.autoscroll-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: var(--accent);
+    color: var(--theme);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-shrink: 0;
+    transition: background 0.2s ease;
+}
+
+.autoscroll-btn:hover {
+    background: var(--accent-hover, var(--accent));
+    filter: brightness(1.1);
+}
+
+.autoscroll-speeds {
+    display: flex;
+    gap: 4px;
+}
+
+.autoscroll-speed {
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--secondary);
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 4px 9px;
+    border-radius: 64px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
+}
+
+.autoscroll-speed.active,
+.autoscroll-speed:hover {
+    background: var(--accent);
+    color: var(--theme);
+    border-color: var(--accent);
+}
+
+/* ── End auto-scroll widget ────────────────────── */
