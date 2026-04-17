@@ -21,26 +21,58 @@
 </button>
 {{- end }}
 
-<footer class="footer">
-    {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-        {{- end }}
-        {{- print " · "}}
-    {{- end }}
+<footer class="footer footer-nav">
+    <div class="footer-grid">
 
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
+        {{/* Guide column */}}
+        <div class="footer-col">
+            <p class="footer-col-title">Guide</p>
+            <ul>
+                {{ with site.GetPage "/tips" }}
+                    {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+        {{/* Ultimi brani column */}}
+        <div class="footer-col">
+            <p class="footer-col-title">Ultimi brani</p>
+            <ul>
+                {{ range first 3 (where site.RegularPages "Section" "posts") }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+
+        {{/* Contatti column */}}
+        <div class="footer-col">
+            <p class="footer-col-title">Contatti</p>
+            <ul>
+                <li><a href="https://carmelolg.github.io/" rel="noopener noreferrer" target="_blank">carmelolg</a></li>
+                <li><a href="https://github.com/carmelolg" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <span>
+            {{- if site.Copyright }}
+                {{ site.Copyright | markdownify }}
+            {{- else }}
+                {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a>
+            {{- end }}
+        </span>
+        <span>
+            <a href="https://carmelolg.github.io/" rel="noopener noreferrer" target="_blank">&copy;  carmelolg</a>
+        </span>
+        <span>
+            Built with <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>
+            &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        </span>
+    </div>
 </footer>
 {{- end }}
 
