@@ -606,6 +606,14 @@ button#theme-toggle:hover {
         transform: none;
     }
 }
+
+.top-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
 /* ── End top-link ─────────────────────────────────── */
 
 .buttons {
@@ -930,14 +938,23 @@ button#theme-toggle:hover {
     border-color: var(--accent-border);
 }
 
-.top-link,
+.top-link {
+    color: var(--secondary);
+    background: var(--tertiary);
+    border: none;
+}
+
+.top-link:hover {
+    color: var(--primary);
+    background: var(--border);
+}
+
 .copy-code {
     color: var(--accent);
     background: var(--accent-soft-strong);
     border: 1px solid var(--accent-border);
 }
 
-.top-link:hover,
 .copy-code:hover {
     background: var(--accent-soft);
 }
@@ -1239,56 +1256,71 @@ button#theme-toggle:hover {
 
 .autoscroll-widget {
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 99;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     background: var(--tertiary);
     border-radius: 64px;
-    padding: 6px 10px 6px 6px;
+    padding: 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    height: 42px;
+}
+
+@media (min-width: 1390px) {
+    .autoscroll-widget {
+        left: 80px;
+        transform: none;
+    }
 }
 
 .autoscroll-btn {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    border-radius: 64px;
     border: none;
-    background: var(--accent);
-    color: var(--theme);
+    background: transparent;
+    color: var(--secondary);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 10px;
     flex-shrink: 0;
-    transition: background 0.2s ease;
+    transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .autoscroll-btn:hover {
-    background: var(--accent-hover, var(--accent));
-    filter: brightness(1.1);
+    color: var(--primary);
+    background: var(--border);
+    border-radius: 64px;
 }
 
 .autoscroll-speeds {
     display: flex;
     gap: 4px;
+    align-items: center;
+    padding-right: 8px;
 }
 
 .autoscroll-speed {
     border: 1px solid var(--border);
     background: transparent;
     color: var(--secondary);
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    padding: 4px 9px;
+    height: 30px;
+    padding: 0 10px;
     border-radius: 64px;
     cursor: pointer;
-    transition: background 0.15s ease, color 0.15s ease;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .autoscroll-speed.active,
