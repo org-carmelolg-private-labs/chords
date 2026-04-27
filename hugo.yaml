@@ -34,15 +34,15 @@ languages:
         # - name: Canzoni
         #   url: posts/
         #   weight: 2
-        # - name: Chi sono
-        #   url: https://carmelolg.github.io/
+        - name: 
+          url: 
         #   weight: 4
-        - name: Artisti
-          url: autori/
-          weight: 3
-        - name: Ricerca
-          url: search/
-          weight: 2
+        # - name: Artisti
+        #   url: autori/
+        #   weight: 3
+        # - name: Ricerca
+        #   url: search/
+        #   weight: 2
 
 outputs:
   home:
