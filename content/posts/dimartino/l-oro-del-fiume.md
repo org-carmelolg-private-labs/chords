@@ -14,7 +14,7 @@ cover:
 ---
 
 ```
- SOL*    MI-7(no5)    DOadd9/MI
+ G*    E-7(no5)    DOadd9/E
 e -3--------0------------0--------
 b -3--------8------------5--------
 g -0--------0------------0--------
@@ -26,63 +26,63 @@ E -3--------0------------0--------
 ```text
 
 [STROFA 1]
-SOL*                                    
+G*                                    
 Toglierei questi stivali troppo stretti
-MI-7
+E-7
 Per lasciare l'acqua invadere la pelle
-LA-                                            SOL
+A-                                            G
 Mi dimentico di ieri, il tempo non fa prigionieri
-SOL* 
+G* 
 Salterei da tutti i ponti per trovare un vuoto
-MI-7
+E-7
 Per guardare fino in fondo tutto ciò che ero
-LA-                                            SOL
+A-                                            G
 Anche dentro un pozzo nero può riverberare il cielo
 
 [RITORNELLO]
-MI-7(no5)          DOadd9/MI                LA-
+E-7(no5)          DOadd9/E                A-
 E a questa corrente che mi tira indietro
-RE                SOL
+D                G
 Mentre io vorrei volare
-SI7           MI-                       MI-7(no5) 
+B7           E-                       E-7(no5) 
 Lascio trasportare le mie insicurezze
-        DOadd9/MI               LA-
+        DOadd9/E               A-
 E a questo silenzio che si prende tutto
-            RE          SOL
+            D          G
 E non mi fa mai parlare
-SI7          MI-
+B7          E-
 Lascerò rubare
-SOL* (instrumental)
+G* (instrumental)
 L'oro del fiume
-SOL* (instrumental)
+G* (instrumental)
 L'oro del fiume
 
 [STROFA 2]
-SOL*
+G*
 Polvere gialla che si confonde
-                    MI-7
+                    E-7
 Mentre la guardo, scorre
-                                            LA-          
+                                            A-          
 Non so fermare, non so capire, dovrei cercare oltre
-                                          SOL
+                                          G
 Ma poi mi arrendo dentro, mi prenderò l'argento
-                                                MI-7(no5) 
+                                                E-7(no5) 
 Devo dimenticare, lasciar stare l'oro del fiume
 
 [RITORNELLO]
-        DOadd9/MI                                LA-
+        DOadd9/E                                A-
 E a questa corrente (l'oro del fiume) che mi tira indietro
-          RE            SOL
+          D            G
 Mentre io vorrei volare
-SI7           MI-
+B7           E-
 Lascio trasportare (l'oro del fiume) tutte le paure
-MI-7(no5)          DOadd9/MI                LA-
+E-7(no5)          DOadd9/E                A-
 E a questo silenzio che si prende tutto (l'oro del fiume)
-            RE          SOL
+            D          G
 E non mi fa mai parlare
-SI7     MI- 
+B7     E- 
 Lascerò rubare
-SOL* (instrumental)
+G* (instrumental)
 L'oro del fiume
 L'oro del fiume
 L'oro del fiume

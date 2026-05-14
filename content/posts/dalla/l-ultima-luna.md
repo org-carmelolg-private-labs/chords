@@ -14,141 +14,141 @@ cover:
 ---
 
 ```text
-Do  Fam7  Fam6  Do  Fam7  Fa6  (x2)
-Do  Do5-  Fa6/Do  Do  (x2)
-Do  Fa/Do  Do  Fa/Do
-Do  Fa/Do
+C  Fm7  Fm6  C  Fm7  F6  (x2)
+C  C5-  F6/C  C  (x2)
+C  F/C  C  F/C
+C  F/C
 
-        Do         Fa/Do
+        C         F/C
 La settima luna era quella del luna park
-     Do               Fa/Do
+     C               F/C
 Lo scimmione si aggirava
-     Do                Do7
+     C                C7
 dalla giostra al bar
-  Fa        Fa/Mi    Rem7
+  F        F/E    Dm7
 Mentre l'angelo di Dio bestemmiava
-     Do             Do7
+     C             C7
 facendo sforzi di petto
-  Fa        Fa/Mi
+  F        F/E
 Grandi muscoli e poca carne
-     Rem7       Do    Fa/Do    Do   Fa/Do
+     Dm7       C    F/C    C   F/C
 povero angelo benedetto
 
-        Do         Fa/Do
+        C         F/C
 La sesta luna
-     Do               Fa/Do
+     C               F/C
 era il cuore di un disgraziato
-     Do               Fa/Do
+     C               F/C
 che, maledetto il giorno che era nato
-     Do                Do7
+     C                C7
 ma rideva sempre
-  Fa
+  F
 da anni non vedeva le lenzuola
-  Fa/Mi    Rem7          Do       Do7
+  F/E    Dm7          C       C7
 con le mani con le mani sporche di carbone
-  Fa
+  F
 toccava il culo a una signora
-  Fa/Mi    Rem7
+  F/E    Dm7
 e rideva e toccava
-     Do    Fa/Do    Do   Fa/Do
+     C    F/C    C   F/C
 sembrava lui il padrone
 
-        Do         Fa/Do
+        C         F/C
 La quinta luna
-     Do               Fa/Do
+     C               F/C
 fece paura a tutti
-     Do
+     C
 era la testa di un signore
-     Fa/Do     Do         Do7
+     F/C     C         C7
 che con la morte vicino giocava a biliardino
-  Fa
+  F
 era grande ed elegante
-  Fa/Mi    Rem7
+  F/E    Dm7
 né giovane né vecchio
-     Do             Do7
+     C             C7
 forse malato
-  Fa
+  F
 sicuramente era malato
-  Fa/Mi       Rem7    Do
+  F/E       Dm7    C
 perché perdeva sangue da un orecchio
-  Fa/Do    Do    Fa/Do
+  F/C    C    F/C
 
-        Do         Fa/Do
+        C         F/C
 La quarta luna
-     Do               Fa/Do
+     C               F/C
 era una fila di prigionieri
-     Do               Fa/Do
+     C               F/C
 che camminando
-     Do                Do7
+     C                C7
 seguivano le rotaie del treno
-  Fa
+  F
 avevano i piedi insanguinati
-  Fa/Mi    Rem7
+  F/E    Dm7
 e le mani e le mani e le mani
-     Do             Do7
+     C             C7
 senza guanti
-  Fa
+  F
 ma non preoccupatevi
-  Fa/Mi    Rem7
+  F/E    Dm7
 il cielo è sereno
-     Do    Fa/Do    Do   Fa/Do
+     C    F/C    C   F/C
 oggi non ce ne sono più tanti
 
-        Do         Fa/Do
+        C         F/C
 La terza luna
-     Do               Fa/Do
+     C               F/C
 uscirono tutti per guardarla
-     Do               Fa/Do
+     C               F/C
 era così grande
-     Do                Do7
+     C                C7
 che più di uno pensò al Padre Eterno
-  Fa         Fa/Mi      Rem7
+  F         F/E      Dm7
 sospesero i giochi e si spensero le luci
-     Do             Do7
+     C             C7
 cominciò l'inferno
-  Fa        Fa/Mi     Rem7
+  F        F/E     Dm7
 la gente corse a casa perché per quella notte
-     Do    Fa/Do    Do   Fa/Do
+     C    F/C    C   F/C
 ritornò l'inverno
-Do  Fa/Do  Do  Fa/Do  Do  Fa/Do  Do  Do7
-Fa  Fa/Mi  Rem7  Do  Do7
-Fa  Fa/Mi  Rem7  Do  Fa/Do
+C  F/C  C  F/C  C  F/C  C  C7
+F  F/E  Dm7  C  C7
+F  F/E  Dm7  C  F/C
 
-        Do         Fa/Do
+        C         F/C
 La seconda luna
-     Do               Fa/Do
+     C               F/C
 portò la disperazione tra gli zingari
-     Do    Fa/Do         Do    Do7
+     C    F/C         C    C7
 qualcuno addirittura si amputò un dito
-  Fa    Fa/Mi      Rem7
+  F    F/E      Dm7
 andarono in banca a fare qualche operazione
-     Do             Do7
+     C             C7
 ma che confusione
-  Fa    Fa/Mi      Rem7
+  F    F/E      Dm7
 la maggior parte prese cani e figli
-     Do    Fa/Do    Do   Fa/Do
+     C    F/C    C   F/C
 e corse alla stazione
 
-        Do          Fa/Do
+        C          F/C
 L'ultima luna la vide solo un bimbo appena nato
-     Do               Fa/Do
+     C               F/C
 aveva occhi tondi e neri e fondi
-     Do                Do7
+     C                C7
 e non piangeva
-  Fa       Fa/Mi
+  F       F/E
 con grandi ali prese la luna
-     Rem7     Do       Do7
+     Dm7     C       C7
 tra le mani, tra le mani
-  Fa       Fa/Mi     Rem7
+  F       F/E     Dm7
 e volò via, e volò via
-     Do             Do7
+     C             C7
 era l'uomo di domani
-  Fa       Fa/Mi     Rem7
+  F       F/E     Dm7
 e volò via, e volò via
-     Do    Fa/Do    Do   Fa/Do
+     C    F/C    C   F/C
 era l'uomo di domani
 
-Do  Fa/Do  (ripete a sfumare)
+C  F/C  (ripete a sfumare)
 ```
 
 ### Ascolta l'originale su YouTube

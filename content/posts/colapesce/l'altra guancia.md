@@ -14,68 +14,68 @@ cover:
 ---
 
 ```text
-DO         MI-        LA-
+C         E-        A-
 Diremo così a chi ci vuole ferire:
-SOL        RE-
+G        D-
 non porgo guance, mi dispiace, è andata così.
 
 
-DO         MI-
+C         E-
 Prendo appunti con le dita
-LA-
+A-
 sulla grazia del tuo viso
-SOL
+G
 quando la sera e la mattina
-RE-
+D-
 la pelle conosce l'unica verità.
 
 
-DO         MI-
+C         E-
 Difendiamo le idee
 con il fiato e con le labbra
-SOL
+G
 non partiremo questa volta
-RE-
+D-
 il mondo è già qui
-                   MI
+                   E
 sei sopra di me.
 
 
-LA-6
+A-6
 Ci sono dei giorni in cui le ore sono briciole
-RE-     SOL           LA-          MI
+D-     G           A-          E
 raccolgo i minuti sopra il tavolo
-LA-6
+A-6
 la vita è solo una manciata di domeniche
-RE-     SOL           LA-          MI
+D-     G           A-          E
 nascondo le ore sotto il tavolo.
 
 
-DO             MI-
+C             E-
 Il tempo non sa a chi far del bene
-LA-
+A-
 non vedo luce in questa stanza
-RE-
+D-
 la mediocrità poggiamola qui
-DO
-MI-
+C
+E-
 ridifendiamo le idee con il fiato e con le labbra
-LA-
-SOL
+A-
+G
 non partiremo questa volta
-RE-
+D-
 il mondo è già qui
-MI
+E
 sei sopra di me.
 
 
-LA-6
+A-6
 Ci sono dei giorni in cui le ore sono briciole
-RE-     SOL           LA-          MI
+D-     G           A-          E
 raccolgo i minuti sopra il tavolo
-LA-6
+A-6
 la vita è solo una manciata di domeniche
-RE-     SOL           LA-          MI
+D-     G           A-          E
 nascondo le ore sotto il tavolo.
 ```
 

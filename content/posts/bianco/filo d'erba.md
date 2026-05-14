@@ -12,86 +12,90 @@ cover:
   alt: "Bianco - Filo d'erba"
   relative: false
 ---
-##### Capotasto: 1
+##### Note 
+> Capotasto al 1° tasto, quindi tutte le note sono spostate di un semitono verso l’alto.
+
+> Nel ritornello da D a B– e viceversa, si può aggiungere in mezzo la nota al 4° tasto della 5° corda (C#) per rendere il passaggio più fluido.
 
 ```text
-LA                 RE
+
+[STROFA]
+A       D
 Io mi dissolverò
 come il bianco di un’onda
-                           FA#-
+                F#-
 che il tempo non ha
-MI                      SI-
+E          B-
 di capire come sta
-
-             RE
+         D
 Ma io continuerò
 a prenderti in mano
-                                 FA#-
+                    F#-
 e portarti lontano da qui
- MI                                  SI-
+ E                  B-
 tra cielo e mare o dove vuoi
 
-RE
+[PRE-RITORNELLO]
+D
 Dove la tua mente
 possa ritrovare il sonno
-SI-  
+B-  
 quello buono quello
 che ti porta dentro un sogno
 
-MI                 RE
+[RITORNELLO]
+E         D
 E arriverà l’estate
-             FA#-
+             F#-
 i fiori si apriranno
 e noi qui in silenzio a guardare le stelle
-MI                              RE
+E           D
 che un po’ ci invidieranno
-                                FA#-
+                    F#-
 perché poi in fondo sanno
-                                                                RE      FA#-    MI
-che è meglio guardare per aria che a terra   uuuuuh
+                                             
+che è meglio guardare per aria che a terra
 
-RE    FA#-  SI-  MI
+D    F#-  B-  E
 uuuuh uuuuh uuuuh
 
-
-               RE
+[STROFA]
+       D
 E ti ritroverò
 ferma come un filo d’erba
-                        FA#-
+              F#-
 che voglia non ha
- MI                       SI-
+E            B-
 di piegarsi alla realtà
 
-               RE
+        D
 E ti convincerò
 che il salto da fare
-                                          FA#-
+                        F#-
 non è verso il basso ma in su
- MI                         SI-
+E                  B-
 là dove il mare aria è già
 
-RE
-
+[PRE-RITORNELLO]
+D
 Dove la tua voce possa ritrovare ascolto
-SI-
+B-
 quello buono quello di cui tu senti il bisogno
 
-MI                 RE
+[RITORNELLO]
+E                 D
 E arriverà l’estate
-               FA#-
+               F#-
 i fiori si apriranno
 e noi qui in silenzio a guardare le stelle
-MI                              RE
+E             D
 che un po’ ci invidieranno
-                                FA#-
+              F#-
 perché poi in fondo sanno
-                                                                RE    
+                                     D    
 che è meglio guardare per aria che a terra
 
 ```
-
-##### Note 
-> Nel ritornello da RE a SI– e viceversa, si può aggiungere in mezzo la nota al 4° tasto della 5° corda
 
 ### Ascolta l'originale su YouTube
 {{< youtube DoASbjgzQDI >}}

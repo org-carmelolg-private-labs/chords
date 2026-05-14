@@ -15,99 +15,99 @@ cover:
 
 ```text
 [Intro]
-SOL MI- LA
-SOL MI- LA
+G E- A
+G E- A
 
 [Verse]
-SOL                           MI-
+G                           E-
 Arrivarono il silenzio e i cambiamenti
-LA
+A
 Come dei lampi, graffiano il buio
-SOL                       MI-
+G                       E-
 Io volevo fare solo il musicista
-LA
+A
 Lei ci credeva, mentre studiava.
 
-SOL            MI-
+G            E-
 Per andare via
-LA
+A
 Servono gli euro e un filo di rabbia
-SOL            MI-  LA
+G            E-  A
 Per andare via, lontano.
 
 [Chorus]
-Fa#m
+F#m
 Il capomastro appeso ad un traliccio grida
-                      MI-
+                      E-
 "il cielo non esiste" e pure la luna è una messa in scena
-Fa#m                                              MI-
+F#m                                              E-
 Ma la luce che sfiora di taglio la spiaggia mise tutti d'accordo
-        RE           MI-
+        D           E-
 pure i pesci che li vedi brillare
-        Fa#m
+        F#m
 e d'argento il mare
-       MI-                   RE
+       E-                   D
 non si vede la fine, menomale
 
 [Bridge]
-LA SI- SOL
-LA SI- SOL
-LA SI- SOL
-LA SI- SOL
+A B- G
+A B- G
+A B- G
+A B- G
 
-Fa#m MI-
+F#m E-
 
-LA SI- SOL
-LA SI- SOL
-LA SI- SOL
-LA SI- SOL
+A B- G
+A B- G
+A B- G
+A B- G
 
 [Chorus]
-Fa#m
+F#m
 La star del porno china sul suo letto grida
-                           MI-
+                           E-
 il cielo non esiste e pure l'amore è una messa in scena
-Fa#m                                           MI-
+F#m                                           E-
 ma la luce che sfiora di taglio i tuoi occhi mette tutti d'accordo
-        RE           MI-
+        D           E-
 pure i pesci che li vedi brillare
-Fa#m
+F#m
 e d'argento il mare
-MI-                     SOL
+E-                     G
 non si vede la fine, menomale
 
 [Interlude]
-SOL MI- LA
-SOL MI- LA
+G E- A
+G E- A
 
-SOL          MI-   LA
+G          E-   A
 Per andare via, davvero
-SOL          MI-   LA
+G          E-   A
 Per andare via, lontano
 
 [Bridge]
-LA SI- SOL
-LA SI- SOL
+A B- G
+A B- G
 
 [Chorus]
-Fa#m                                            MI-                               LA SI-
+F#m                                            E-                               A B-
 L'anestesista dice che il dolore non esiste e pure la morte è una messa in scena
-  SOL                                        LA SI-
+  G                                        A B-
 ma la luce che sfiora di taglio i tuoi occhi
-SOL                   LA SI-
+G                   A B-
 mette tutti d'accordo
-SOL           LA SI-
+G           A B-
 pure i pesci
-SOL                    LA SI-
+G                    A B-
 mette tutti d'accordo
-SOL           LA SI-
+G           A B-
 pure i pesci
-SOL
-Fa#m
+G
+F#m
 che li vedi brillare
-MI-
+E-
 e d'argento il mare
-RE
+D
 ```
 
 ### Ascolta l'originale su YouTube

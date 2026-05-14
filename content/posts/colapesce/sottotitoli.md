@@ -24,112 +24,112 @@ E -x--
 ```
 
 ```text
-FA                 RE-7
+F                 D-7
 La stanza diventa una barca
 
-                SIb
+                Bb
 Quando sei qui in silenzio
 
-DO                 FA
+C                 F
 E in mano tieni stretto un altro film
 
-                RE-7
+                D-7
 Da guardare con lo stupore
 
-REsus7            DO
+REsus7            C
 E quella magia che ti contraddistingue
 
-SOL-7
+G-7
 Apro la finestra sul cortile...
 
-SIb
+Bb
 Immergiamoci in un altro viaggio
 
-FA
+F
 Metti in moto questa stanza
 
-DO                 SOL-7
+C                 G-7
 E' un film ma non è un film
 
-SIb
+Bb
 Scappiamo via da qui
 
-FA
+F
 Lontanissimo da voi
 
-DO           SOL-7
+C           G-7
 In un bistrot o che ne so
-[stacco: RE# - Sib — DO - FA]
+[stacco: D# - Bb — C - F]
 
 
-                    RE-7
-La scelta ci porta in Svezia
+                    D-7
+A scelta ci porta in Svezia
 
 REsus7
 Poi in Giappone
 
-SIb
+Bb
 Ma noi qui
 
-DO                              FA
+C                              F
 Sconfiggo il nucleare con un clic
 
-RE-7
+D-7
 Metti in pausa questo amore
 
-        SIb
+        Bb
 Non siamo qui
 
-    DO
+    C
 Io cerco la tua mano
 
 [pausa]
 ...Eccoti
 
 
-[interludio: Sib — FA — DO — SOL-7 — Sib]
+[interludio: Bb — F — C — G-7 — Bb]
 
 
-SIb
+Bb
 Immergiamoci in un altro viaggio
 
-FA
+F
 Metti in moto questa stanza
 
-DO                 SOL-7
+C                 G-7
 E' un film ma non è un film
 
-SIb
+Bb
 Scappiamo via da qui
 
-FA
+F
 Lontanissimo da voi
 
-DO           SOL-7
+C           G-7
 In un bistrot o che ne so
 
-SIb
+Bb
 Percorriamo il polo sud
 
-FA
+F
 Nello spazio
 
-DO                 SOL-7
+C                 G-7
 Immergiamoci nel mare con Zissou
 
-SOL
+G
 ... Non ricordo più
 
-Sib                FA
+Bb                F
 Dove eravamo quasi un anno fa
 
-FA                 RE-7
+F                 D-7
 La stanza diventa una barca
 
-REsus7              SIb
+REsus7              Bb
 E sono qui in silenzio
 
-DO
+C
 E in mano tengo stretto un altro film
 ```
 

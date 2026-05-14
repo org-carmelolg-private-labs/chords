@@ -14,52 +14,52 @@ cover:
 ---
 
 ```text
-MI FA#- SOL#- LA MI FA#- SI
+E F#- G#- A E F#- B
 
-MI			FA#-		  		LA			SI
+E			F#-		  		A			B
 Guardia giurata, ti prego, lasciami entrare
-MI			FA#-		  		LA        	SI
+E			F#-		  		A        	B
 Mia moglie sta partorendo e non posso aspettare
-MI			FA#-		  		LA			SI
+E			F#-		  		A			B
 Guardia giurata, lo so, c'è il regolamento
-MI			          FA#-		  		LA	SI
+E			          F#-		  		A	B
 Ma mia figlia sta venendo al mondo in questo momento
-LA						MI7+
+A						E7+
 Guardia giurata, ti prego, se ancora sei un uomo
-FA#-				SOL#-
+F#-				G#-
 Immagina l'effetto che fa diventare padre alla mia età
-LA							MI7+
+A							E7+
 Guardia giurata, ti prego, non fare lo stronzo
-FA#-							SI
+F#-							B
 Apri questa cazzo di sbarra, che sta arrivando la fine del mondo
 
 [Ritornello]
-LA
+A
 E poi i cieli si sono aperti
-MI7+
+E7+
 La terra si è fatta a metà
-FA#-
+F#-
 La luna ha baciato il sole
-SOL#-
+G#-
 Il vento e la pioggia hanno fatto l'amore
-LA							MI7+
+A							E7+
 In una stanza di ospedale, come la sera di Natale
-FA#-						LA				SI
+F#-						A				B
 Io, tu e tua madre, per tutta la vita
-MI  Instr. MI FA#- SOL#- LA MI FA#- SI
+E  Instr. E F#- G#- A E F#- B
 Con tutto l'amore
 
-LA
+A
 E poi i cieli si sono aperti
-MI7+
+E7+
 La luna ha baciato il sole
-FA#-		SOL#-
+F#-		G#-
 Ahah, – l'amore
-LA								MI7+
+A								E7+
 E quella stanza di ospedale, tipo la notte di Natale
-FA#-						LA				SI
+F#-						A				B
 Io, tu e tua madre, per tutta la vita
-MI	Instr. MI FA#- SOL#- LA MI FA#- SI		MI
+E	Instr. E F#- G#- A E F#- B		E
 Con tutto l'amore
 ```
 

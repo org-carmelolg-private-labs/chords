@@ -15,100 +15,100 @@ cover:
 
 ```text
 [Intro]
-MIm  RE/MI  DO7+  LA5  (x4)
+Em  D/E  C7+  A5  (x4)
 
 [Strofa 1]
-MIm               RE/MI  DO7+      LA5
+Em               D/E  C7+      A5
 Sometimes, I feel the fear of uncertainty stinging clear
-MIm              RE/MI  DO7+      LA5
+Em              D/E  C7+      A5
 And I, I can't help but ask myself
-MIm               RE/MI  DO7+      LA5
+Em               D/E  C7+      A5
 how much I'll let the fear
-MIm               RE/MI  DO7+      LA5
+Em               D/E  C7+      A5
 take the wheel and steer
 
 [Ponte]
-DO7+                     LA9  DOadd9
+C7+                     A9  Cadd9
 It's driven me before, and it seems to have a vague
-LAadd9  DO7+
+Aadd9  C7+
 Haunting mass appeal
-        LA9   DO7+
+        A9   C7+
 But lately, I'm beginning to find that I
-LA
+A
 Should be the one behind the wheel
 
 [Ritornello]
-MIm  RE/MI  DO7+  LA5
-MIm7
+Em  D/E  C7+  A5
+Em7
 Whatever tomorrow brings, I'll be there
-         RE/MI  DO7+  LA5
-MIm
+         D/E  C7+  A5
+Em
 With open arms and open eyes, yeah
-         RE/MI  DO7+  LA5
-MIm  RE/MI
+         D/E  C7+  A5
+Em  D/E
 Whatever tomorrow brings, I'll be there
-         DO7+  LA5
+         C7+  A5
 I'll be there, yeah
 
 [Strofa 2]
-MIm  RE/MI  DO7+          LA5
+Em  D/E  C7+          A5
 So if I decide to waiver my chance
-MIm  RE/MI  DO7+  LA5
+Em  D/E  C7+  A5
 to be one of the hive
-MIm  RE/MI  DO7+      LA5
+Em  D/E  C7+      A5
 Would I choose water over wine
-MIm  RE/MI  DO7+        LA5
+Em  D/E  C7+        A5
 and hold my own and drive?
 
 [Ponte]
-DO7+                     LA9  DOadd9
+C7+                     A9  Cadd9
 It's driven me before, and it seems to be the way
-LA    DO7+
+A    C7+
 That everyone else gets around
-LA7
+A7
 But lately, I'm beginning to find that
-DOadd9        LAadd9
+Cadd9        Aadd9
 When I drive myself, my light is found
 
 [Ritornello]
-MIm  RE/MI  DO7+  LA5
-MIm7
+Em  D/E  C7+  A5
+Em7
 Whatever tomorrow brings, I'll be there
-         RE/MI  DO7+  LA5
-MIm
+         D/E  C7+  A5
+Em
 With open arms and open eyes, yeah
-         RE/MI  DO7+  LA5
-MIm  RE/MI
+         D/E  C7+  A5
+Em  D/E
 Whatever tomorrow brings, I'll be there
-         DO7+  LA5
+         C7+  A5
 I'll be there, yeah
 
 [Bridge]
-MIm7  DO7+  LA5  (x4)
+Em7  C7+  A5  (x4)
 
 [Ponte]
-DO7+               LA9  DOadd9
+C7+               A9  Cadd9
 Would you choose water over wine
-          LA9
+          A9
 Hold the wheel then drive?
 
 [Ritornello]
-MIm  RE/MI  DO7+  LA5
-MIm7
+Em  D/E  C7+  A5
+Em7
 Whatever tomorrow brings, I'll be there
-         RE/MI  DO7+  LA5
-MIm
+         D/E  C7+  A5
+Em
 With open arms and open eyes, yeah
-         RE/MI  DO7+  LA5
-MIm  RE/MI
+         D/E  C7+  A5
+Em  D/E
 Whatever tomorrow brings, I'll be there
-         DO7+  LA5
+         C7+  A5
 I'll be there, yeah
 
 [Outro]
-MIm  DO7+  LA5  (x3)
-MIm  RE/MI  DO7+  LA5
-DO7+  LA
+Em  C7+  A5  (x3)
+Em  D/E  C7+  A5
+C7+  A
 ```
 
 ### Ascolta l'originale su YouTube
